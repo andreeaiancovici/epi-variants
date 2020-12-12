@@ -1,5 +1,8 @@
 package test;
 
+//Page 65 Variant
+//Time complexity O(n)
+//Space complexity O(1)
 public class MauritiusNationalFlag {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 3, 0, 1, 3, 2, 0, 3, 0, 2};

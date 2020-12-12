@@ -1,4 +1,4 @@
-package variaints;
+package variants;
 
 //Page 65 Variant
 //Time complexity O(n)

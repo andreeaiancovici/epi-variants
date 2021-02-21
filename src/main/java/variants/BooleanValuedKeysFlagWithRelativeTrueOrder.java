@@ -1,9 +1,10 @@
 package variants;
 
-//Page 65 Variant
+//Page 70 Variant
 //Time complexity O(n)
 //Space complexity O(1)
 public class BooleanValuedKeysFlagWithRelativeTrueOrder {
+
     private static class BooleanObject {
         boolean key;
         int value;
@@ -13,6 +14,7 @@ public class BooleanValuedKeysFlagWithRelativeTrueOrder {
             this.value = value;
         }
     }
+
     public static void main(String[] args) {
         BooleanObject[] nums = new BooleanObject[]{
                 new BooleanObject(false, 1),

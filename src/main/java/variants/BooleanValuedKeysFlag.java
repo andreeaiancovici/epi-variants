@@ -1,6 +1,6 @@
 package variants;
 
-//Page 65 Variant
+//Page 70 Variant
 //Time complexity O(n)
 //Space complexity O(1)
 public class BooleanValuedKeysFlag {

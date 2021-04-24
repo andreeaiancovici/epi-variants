@@ -3,7 +3,7 @@ package variants;
 import java.util.HashMap;
 import java.util.Map;
 
-//Page 111 Variant
+//Page 98 Variant
 //Time complexity O(n)
 //Space complexity O(1)
 public class SpreadsheetEncodingWithATo0 {

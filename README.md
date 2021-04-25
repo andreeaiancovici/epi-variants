@@ -20,4 +20,11 @@ LeetCode mappings and variants
 |Compute random subset|
 |Generate nonuniform random numbers|
 
+## Strings
+
+|Problem|LeetCode|Level|LeetCode similar questions|LeetCode Variants|EPI Variants
+|---|---|---|---|---|---|
+|7.4. Replace and remove| | | | |TelexEncoding, MergeTwoSortedArrays|
+
+
 # In progress...

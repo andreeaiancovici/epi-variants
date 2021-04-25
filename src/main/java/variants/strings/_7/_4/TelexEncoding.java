@@ -1,4 +1,4 @@
-package variants;
+package variants.strings._7._4;
 
 import java.util.Arrays;
 import java.util.HashMap;

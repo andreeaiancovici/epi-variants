@@ -1,8 +1,10 @@
 # Elements of Programming Interviews in Java
 
-Resolved variants for EPI in Java.
+The project contains:
+* solved variants for each problem in EPI book
+* LeetCode mappings for solved problems
+* similar questions suggestions
 
-LeetCode mappings and variants
 
 ## Arrays
 

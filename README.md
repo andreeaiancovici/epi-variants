@@ -5,11 +5,17 @@ The project contains:
 * LeetCode mappings for solved problems
 * similar questions suggestions
 
+Table description:
+* Problem -> problem name and number in EPI book
+* LeetCode -> question link on LeetCode
+* Level -> question difficulty on LeetCode
+* Similar questions -> similar questions on LeetCode
+* Variants -> solved EPI book variants in current project
 
 ## Arrays
 
-|Problem|LeetCode|Level|LeetCode similar questions|LeetCode Variants|EPI Variants
-|---|---|---|---|---|---|
+|Problem|LeetCode|Level|Similar questions|Variants
+|---|---|---|---|---|
 |The Dutch national flag problem|https://leetcode.com/problems/sort-colors/|:yellow_heart:&nbsp;**Medium**|
 |Buy and sell stock once|https://leetcode.com/problems/best-time-to-buy-and-sell-stock/|:green_heart:&nbsp;**Easy**|
 |Buy and sell stock twice|https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/|:heart:&nbsp;**Hard**|
@@ -24,9 +30,11 @@ The project contains:
 
 ## Strings
 
-|Problem|LeetCode|Level|LeetCode similar questions|LeetCode Variants|EPI Variants
-|---|---|---|---|---|---|
-|7.4. Replace and remove| | | | |TelexEncoding, MergeTwoSortedArrays|
+|Problem|LeetCode|Level|Similar questions|Variants
+|---|---|---|---|---|
+|7.4 Replace and remove| | | |TelexEncoding, MergeTwoSortedArrays|
+|7.5 Test palindromicity|https://leetcode.com/problems/valid-palindrome/|:green_heart:&nbsp;**Easy**|Valid Palindrome II, Palindrome Linked List| |
+
 
 
 # In progress...

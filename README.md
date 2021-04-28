@@ -1,9 +1,9 @@
 # Elements of Programming Interviews in Java
 
 The project contains:
-* solved variants for each problem in EPI book
 * LeetCode mappings for solved problems
 * similar questions suggestions
+* solved variants for each problem in EPI book
 
 Table description:
 * Problem -> problem name and number in EPI book

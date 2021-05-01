@@ -35,7 +35,6 @@ Table description:
 |7.4 Replace and remove| | | |TelexEncoding, MergeTwoSortedArrays|
 |7.5 Test palindromicity|https://leetcode.com/problems/valid-palindrome/|:green_heart:&nbsp;**Easy**|Valid Palindrome II, Palindrome Linked List| |
 |7.6 Reverse all the words in a sentence|https://leetcode.com/problems/reverse-words-in-a-string/|:yellow_heart:&nbsp;**Medium**|Reverse Words in a String II| |
-
-
+|7.7 Compute all mnemonics for a phone number|https://leetcode.com/problems/letter-combinations-of-a-phone-number/|:yellow_heart:&nbsp;**Medium**|Generate Parentheses, Combination Sum, Binary Watch| |
 
 # In progress...

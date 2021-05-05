@@ -16,7 +16,7 @@ Table description:
 
 |Problem|LeetCode|Level|Similar questions|Variants
 |---|---|---|---|---|
-|The Dutch national flag problem|https://leetcode.com/problems/sort-colors/|:yellow_heart:&nbsp;**Medium**|
+|6.1 The Dutch national flag problem|https://leetcode.com/problems/sort-colors/|:yellow_heart:&nbsp;**Medium**|Sort List, Wiggle Sort, Wiggle Sort II|DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder|
 |Buy and sell stock once|https://leetcode.com/problems/best-time-to-buy-and-sell-stock/|:green_heart:&nbsp;**Easy**|
 |Buy and sell stock twice|https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/|:heart:&nbsp;**Hard**|
 |Enumerate all primes to n|https://leetcode.com/problems/count-primes//|:green_heart:&nbsp;**Easy**|

@@ -1,6 +1,8 @@
-package variants;
+package variants.arrays._6._1;
 
-//Page 70 Variant
+import java.util.Arrays;
+
+//Page 65 Variant
 //Time complexity O(n)
 //Space complexity O(1)
 public class BooleanValuedKeysFlagWithRelativeTrueOrder {
@@ -16,7 +18,7 @@ public class BooleanValuedKeysFlagWithRelativeTrueOrder {
     }
 
     public static void main(String[] args) {
-        BooleanObject[] nums = new BooleanObject[]{
+        BooleanObject[] values = new BooleanObject[]{
                 new BooleanObject(false, 1),
                 new BooleanObject(true, 1),
                 new BooleanObject(false, 2),
@@ -27,24 +29,26 @@ public class BooleanValuedKeysFlagWithRelativeTrueOrder {
                 new BooleanObject(true, 4),
                 new BooleanObject(true, 5),
                 new BooleanObject(true, 6)};
-        int i = nums.length - 1;
+        System.out.println("Array: " + Arrays.toString(values));
+        int i = values.length - 1;
         int j = -1;
         while (0 <= i) {
-            if(nums[i].key) {
-                if(j != -1) {
-                    BooleanObject temp = nums[j];
-                    nums[j] = nums[i];
-                    nums[j] = temp;
+            if (values[i].key) {
+                if (j != -1) {
+                    BooleanObject temp = values[j];
+                    values[j] = values[i];
+                    values[j] = temp;
                     j = -1;
                 } else {
                     i--;
                 }
             } else {
-                if(j == -1) {
+                if (j == -1) {
                     j = i;
                 }
                 i--;
             }
         }
+        System.out.println("Array after ordering: " + Arrays.toString(values));
     }
 }

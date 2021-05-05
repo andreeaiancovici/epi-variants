@@ -1,14 +1,22 @@
 # Elements of Programming Interviews in Java
 
-Resolved variants for EPI in Java.
+The project contains:
+* LeetCode mappings for solved problems
+* similar questions suggestions
+* solved variants for each problem in EPI book
 
-LeetCode mappings and variants
+Table description:
+* Problem -> problem name and number in EPI book
+* LeetCode -> question link on LeetCode
+* Level -> question difficulty on LeetCode
+* Similar questions -> similar questions on LeetCode
+* Variants -> solved EPI book variants in current project
 
 ## Arrays
 
-|Problem|LeetCode|Level|LeetCode similar questions|LeetCode Variants|EPI Variants
-|---|---|---|---|---|---|
-|The Dutch national flag problem|https://leetcode.com/problems/sort-colors/|:yellow_heart:&nbsp;**Medium**|
+|Problem|LeetCode|Level|Similar questions|Variants
+|---|---|---|---|---|
+|6.1 The Dutch national flag problem|https://leetcode.com/problems/sort-colors/|:yellow_heart:&nbsp;**Medium**|Sort List, Wiggle Sort, Wiggle Sort II|DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder|
 |Buy and sell stock once|https://leetcode.com/problems/best-time-to-buy-and-sell-stock/|:green_heart:&nbsp;**Easy**|
 |Buy and sell stock twice|https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/|:heart:&nbsp;**Hard**|
 |Enumerate all primes to n|https://leetcode.com/problems/count-primes//|:green_heart:&nbsp;**Easy**|
@@ -22,9 +30,11 @@ LeetCode mappings and variants
 
 ## Strings
 
-|Problem|LeetCode|Level|LeetCode similar questions|LeetCode Variants|EPI Variants
-|---|---|---|---|---|---|
-|7.4. Replace and remove| | | | |TelexEncoding, MergeTwoSortedArrays|
-
+|Problem|LeetCode|Level|Similar questions|Variants
+|---|---|---|---|---|
+|7.4 Replace and remove| | | |TelexEncoding, MergeTwoSortedArrays|
+|7.5 Test palindromicity|https://leetcode.com/problems/valid-palindrome/|:green_heart:&nbsp;**Easy**|Valid Palindrome II, Palindrome Linked List| |
+|7.6 Reverse all the words in a sentence|https://leetcode.com/problems/reverse-words-in-a-string/|:yellow_heart:&nbsp;**Medium**|Reverse Words in a String II| |
+|7.7 Compute all mnemonics for a phone number|https://leetcode.com/problems/letter-combinations-of-a-phone-number/|:yellow_heart:&nbsp;**Medium**|Generate Parentheses, Combination Sum, Binary Watch| |
 
 # In progress...

@@ -8,15 +8,23 @@ The project contains:
 Table description:
 * Problem -> problem name and number in EPI book
 * LeetCode -> question link on LeetCode
-* Level -> question difficulty on LeetCode
 * Similar questions -> similar questions on LeetCode
 * Variants -> solved EPI book variants in current project
 
+Levels
+* :green_heart:&nbsp; -> **Easy**
+* :yellow_heart:&nbsp; -> **Medium**
+* :heart:&nbsp; -> **Hard**
+
 ## Arrays
 
-|Problem|LeetCode|Level|Similar questions|Variants
-|---|---|---|---|---|
-|6.1 The Dutch national flag problem|https://leetcode.com/problems/sort-colors/|:yellow_heart:&nbsp;**Medium**|Sort List, Wiggle Sort, Wiggle Sort II|DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder|
+| Problem | LeetCode | Similar questions | Variants |
+| ------- | -------- | ----------------- | -------- |
+| 6.1 The Dutch national flag problem | :yellow_heart:&nbsp;Sort Colors | :yellow_heart:&nbsp;Sort List<br/>:yellow_heart:&nbsp;Wiggle Sort<br/>:yellow_heart:&nbsp;Wiggle Sort II | DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder | 
+| 6.2 Increment and arbitrary-precision integer | :green_heart:&nbsp;Plus One | :yellow_heart:&nbsp;Multiply Strings<br/>:green_heart:&nbsp;Add Binary<br/>:yellow_heart:&nbsp;Plus One Linked List<br/>:green_heart:&nbsp;Add to Array-Form of Integer | AddBinary |
+
+|Problem|LeetCode|Similar questions|Similar questions
+|---|---|---|---|
 |Buy and sell stock once|https://leetcode.com/problems/best-time-to-buy-and-sell-stock/|:green_heart:&nbsp;**Easy**|
 |Buy and sell stock twice|https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/|:heart:&nbsp;**Hard**|
 |Enumerate all primes to n|https://leetcode.com/problems/count-primes//|:green_heart:&nbsp;**Easy**|

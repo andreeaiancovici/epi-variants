@@ -16,9 +16,9 @@ public class DutchNationalFlagWithoutPivot {
     }
 
     public static void main(String[] args) {
-        Color[] colors = new Color[]{RED, BLUE, WHITE, RED, BLUE, BLUE, RED, BLUE, WHITE, WHITE};
+        Color[] colors = new Color[]{WHITE, RED, BLUE, WHITE, RED};
+//        Color[] colors = new Color[]{RED, BLUE, WHITE, RED, BLUE, BLUE, RED, BLUE, WHITE, WHITE};
         System.out.println("Colors array: " + Arrays.toString(colors));
-
         //Order: RED, WHITE, BLUE
         int redIndex = 0, whiteIndex = 0;
         for (int i = 0; i < colors.length; i++) {

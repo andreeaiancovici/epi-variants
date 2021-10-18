@@ -13,6 +13,9 @@ Explanations: Here are the steps to find out that 23 is a happy number:
 1^2 + 3^2 = 10
 1^2 + 0^2 = 1
  */
+
+//Time: O(log(n))
+//Space: O(1)
 public class HappyNumber {
     public static void main(String[] args) {
         int n = 12;

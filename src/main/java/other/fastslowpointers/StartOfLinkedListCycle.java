@@ -1,5 +1,7 @@
 package other.fastslowpointers;
 
+import other.ListNode;
+
 //Given the head of a Singly LinkedList that contains a cycle, write a function to find the starting node of the cycle.
 //Time: O(n)
 //Space: O(1)

@@ -2,13 +2,11 @@
 
 The project contains:
 * LeetCode mappings for solved problems
-* similar questions suggestions
 * solved variants for each problem in EPI book
 
 Table description:
 * Problem -> problem name and number in EPI book
 * LeetCode -> question link on LeetCode
-* Similar questions -> similar questions on LeetCode
 * Variants -> solved EPI book variants in current project
 
 Levels

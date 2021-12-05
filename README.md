@@ -16,10 +16,20 @@ Levels
 * :yellow_heart:&nbsp; -> **Medium**
 * :heart:&nbsp; -> **Hard**
 
-## Arrays
+## Primitive Types
 
-| Problem | LeetCode | Similar questions | Variants |
-| ------- | -------- | ----------------- | -------- |
+| Problem | LeetCode | Variants |
+| ------- | -------- | -------- |
+| Count bits | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
+| Parity | :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
+| SwapBits | | |
+| ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
+
+
+
+
+
+
 | 6.1 The Dutch national flag problem | :yellow_heart:&nbsp;Sort Colors | :yellow_heart:&nbsp;Sort List<br/>:yellow_heart:&nbsp;Wiggle Sort<br/>:yellow_heart:&nbsp;Wiggle Sort II | DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder | 
 | 6.2 Increment and arbitrary-precision integer | :green_heart:&nbsp;Plus One | :yellow_heart:&nbsp;Multiply Strings<br/>:green_heart:&nbsp;Add Binary<br/>:yellow_heart:&nbsp;Plus One Linked List<br/>:green_heart:&nbsp;Add to Array-Form of Integer | AddBinary |
 

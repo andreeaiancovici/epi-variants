@@ -23,6 +23,8 @@ Levels
 | SwapBits | | |
 | ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
 | ClosestIntSameWeight | | |
+| PrimitiveMultiply | | |
+| PrimitiveDivide | | |
 
 
 

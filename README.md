@@ -22,6 +22,7 @@ Levels
 | Parity | :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
 | SwapBits | | |
 | ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
+| ClosestIntSameWeight | | |
 
 
 

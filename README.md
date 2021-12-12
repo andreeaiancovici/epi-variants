@@ -25,7 +25,7 @@ Levels
 | ClosestIntSameWeight | | |
 | PrimitiveMultiply | | |
 | PrimitiveDivide | | |
-
+| PowerXY | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |
 
 
 

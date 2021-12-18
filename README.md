@@ -18,7 +18,7 @@ Levels
 
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
-| Bootcamp: Count bits | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
+| Bootcamp: CountBits | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
 | 5.1. Parity | :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
 | 5.2. SwapBits | | |
 | 5.3. ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
@@ -31,8 +31,10 @@ Levels
 | 5.10. UniformRandomNumber | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |
 | 5.11. RectangleIntersection | :green_heart:&nbsp;[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | |
 
-
-
+## Arrays
+| Problem | LeetCode | Variants |
+| ------- | -------- | -------- |
+| Bootcamp: EvenOddArray  | :green_heart:&nbsp;[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | |
 
 # In progress...
 | 6.1 The Dutch national flag problem | :yellow_heart:&nbsp;Sort Colors | :yellow_heart:&nbsp;Sort List<br/>:yellow_heart:&nbsp;Wiggle Sort<br/>:yellow_heart:&nbsp;Wiggle Sort II | DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder | 

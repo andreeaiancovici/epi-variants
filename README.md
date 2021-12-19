@@ -19,25 +19,25 @@ Levels
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
 | Bootcamp: CountBits | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
-| 5.1. Parity | :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
-| 5.2. SwapBits | | |
-| 5.3. ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
-| 5.4. ClosestIntSameWeight | | |
-| 5.5. PrimitiveMultiply | | |
-| 5.6. PrimitiveDivide | | |
-| 5.7. PowerXY | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |
-| 5.8. ReverseDigits | :yellow_heart:&nbsp;[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | |
-| 5.9. IsNumberPalindromic | :green_heart:&nbsp;[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | |
-| 5.10. UniformRandomNumber | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |
-| 5.11. RectangleIntersection | :green_heart:&nbsp;[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | |
+| 5.1 Parity | :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
+| 5.2 SwapBits | | |
+| 5.3 ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
+| 5.4 ClosestIntSameWeight | | |
+| 5.5 PrimitiveMultiply | | |
+| 5.6 PrimitiveDivide | | |
+| 5.7 PowerXY | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |
+| 5.8 ReverseDigits | :yellow_heart:&nbsp;[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | |
+| 5.9 IsNumberPalindromic | :green_heart:&nbsp;[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | |
+| 5.10 UniformRandomNumber | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |
+| 5.11 RectangleIntersection | :green_heart:&nbsp;[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | |
 
 ## Arrays
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
 | Bootcamp: EvenOddArray  | :green_heart:&nbsp;[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | |
+| 6.1 DutchNationalFlag | :yellow_heart:&nbsp;[Sort Colors](https://leetcode.com/problems/sort-colors/) | |
 
 # In progress...
-| 6.1 The Dutch national flag problem | :yellow_heart:&nbsp;Sort Colors | :yellow_heart:&nbsp;Sort List<br/>:yellow_heart:&nbsp;Wiggle Sort<br/>:yellow_heart:&nbsp;Wiggle Sort II | DutchNationalFlagWithoutPivot, MauritiusNationalFlag, BooleanValuedKeysFlag, BooleanValuedKeysFlagWithRelativeTrueOrder | 
 | 6.2 Increment and arbitrary-precision integer | :green_heart:&nbsp;Plus One | :yellow_heart:&nbsp;Multiply Strings<br/>:green_heart:&nbsp;Add Binary<br/>:yellow_heart:&nbsp;Plus One Linked List<br/>:green_heart:&nbsp;Add to Array-Form of Integer | AddBinary |
 
 |Problem|LeetCode|Similar questions|Similar questions

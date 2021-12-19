@@ -36,9 +36,9 @@ Levels
 | ------- | -------- | -------- |
 | Bootcamp: EvenOddArray  | :green_heart:&nbsp;[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | |
 | 6.1 DutchNationalFlag | :yellow_heart:&nbsp;[Sort Colors](https://leetcode.com/problems/sort-colors/) | |
+| 6.2 IntAsArrayIncrement | :green_heart:&nbsp;[Plus One](https://leetcode.com/problems/plus-one/) | |
 
 # In progress...
-| 6.2 Increment and arbitrary-precision integer | :green_heart:&nbsp;Plus One | :yellow_heart:&nbsp;Multiply Strings<br/>:green_heart:&nbsp;Add Binary<br/>:yellow_heart:&nbsp;Plus One Linked List<br/>:green_heart:&nbsp;Add to Array-Form of Integer | AddBinary |
 
 |Problem|LeetCode|Similar questions|Similar questions
 |---|---|---|---|

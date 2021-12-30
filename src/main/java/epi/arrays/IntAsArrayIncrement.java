@@ -1,10 +1,6 @@
 package epi.arrays;
 
-import java.util.Arrays;
-import java.util.List;
-
 import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
 
 /*
 You are given a large integer represented as an integer array digits,

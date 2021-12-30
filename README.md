@@ -37,6 +37,7 @@ Levels
 | Bootcamp: EvenOddArray  | :green_heart:&nbsp;[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | |
 | 6.1 DutchNationalFlag | :yellow_heart:&nbsp;[Sort Colors](https://leetcode.com/problems/sort-colors/) | |
 | 6.2 IntAsArrayIncrement | :green_heart:&nbsp;[Plus One](https://leetcode.com/problems/plus-one/) | |
+| 6.3 IntAsArrayMultiply | | |
 
 # In progress...
 

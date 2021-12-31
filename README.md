@@ -18,26 +18,26 @@ Levels
 
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
-| Bootcamp: CountBits | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
-| 5.1 Parity | :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
-| 5.2 SwapBits | | |
-| 5.3 ReverseBits | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
-| 5.4 ClosestIntSameWeight | | |
-| 5.5 PrimitiveMultiply | | |
-| 5.6 PrimitiveDivide | | |
-| 5.7 PowerXY | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |
-| 5.8 ReverseDigits | :yellow_heart:&nbsp;[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | |
-| 5.9 IsNumberPalindromic | :green_heart:&nbsp;[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | |
-| 5.10 UniformRandomNumber | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |
-| 5.11 RectangleIntersection | :green_heart:&nbsp;[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | |
+| [Bootcamp: CountBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/CountBits.java) | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
+| [5.1 Parity ](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/Parity.java)| :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
+| [5.2 SwapBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/SwapBits.java) | | |
+| [5.3 ReverseBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ReverseBits.java) | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
+| [5.4 ClosestIntSameWeight](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ClosestIntSameWeight.java) | | |
+| [5.5 PrimitiveMultiply](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PrimitiveMultiply.java) | | |
+| [5.6 PrimitiveDivide](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PrimitiveDivide.java) | | |
+| [5.7 PowerXY](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PowerXY.java) | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |
+| [5.8 ReverseDigits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ReverseDigits.java) | :yellow_heart:&nbsp;[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | |
+| [5.9 IsNumberPalindromic](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/IsNumberPalindromic.java) | :green_heart:&nbsp;[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | |
+| [5.10 UniformRandomNumber](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/UniformRandomNumber.java) | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |
+| [5.11 RectangleIntersection](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/RectangleIntersection.java) | :green_heart:&nbsp;[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | |
 
 ## Arrays
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
-| Bootcamp: EvenOddArray  | :green_heart:&nbsp;[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | |
-| 6.1 DutchNationalFlag | :yellow_heart:&nbsp;[Sort Colors](https://leetcode.com/problems/sort-colors/) | |
-| 6.2 IntAsArrayIncrement | :green_heart:&nbsp;[Plus One](https://leetcode.com/problems/plus-one/) | |
-| 6.3 IntAsArrayMultiply | | |
+| [Bootcamp: EvenOddArray](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/EvenOddArray.java)  | :green_heart:&nbsp;[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | |
+| [6.1 DutchNationalFlag](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/DutchNationalFlag.java) | :yellow_heart:&nbsp;[Sort Colors](https://leetcode.com/problems/sort-colors/) | |
+| [6.2 IntAsArrayIncrement](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IntAsArrayIncrement.java) | :green_heart:&nbsp;[Plus One](https://leetcode.com/problems/plus-one/) | |
+| [6.3 IntAsArrayMultiply](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IntAsArrayMultiply.java) | | |
 
 # In progress...
 

@@ -38,6 +38,7 @@ Levels
 | [6.1 DutchNationalFlag](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/DutchNationalFlag.java) | :yellow_heart:&nbsp;[Sort Colors](https://leetcode.com/problems/sort-colors/) | |
 | [6.2 IntAsArrayIncrement](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IntAsArrayIncrement.java) | :green_heart:&nbsp;[Plus One](https://leetcode.com/problems/plus-one/) | |
 | [6.3 IntAsArrayMultiply](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IntAsArrayMultiply.java) | | |
+| [6.4 AdvanceByOffsets](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/AdvanceByOffsets.java) | :yellow_heart:&nbsp;[Jump Game](https://leetcode.com/problems/jump-game/) | |
 
 # In progress...
 

@@ -39,6 +39,7 @@ Levels
 | [6.2 IntAsArrayIncrement](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IntAsArrayIncrement.java) | :green_heart:&nbsp;[Plus One](https://leetcode.com/problems/plus-one/) | |
 | [6.3 IntAsArrayMultiply](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IntAsArrayMultiply.java) | | |
 | [6.4 AdvanceByOffsets](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/AdvanceByOffsets.java) | :yellow_heart:&nbsp;[Jump Game](https://leetcode.com/problems/jump-game/) | |
+| [6.5 SortedArrayRemoveDups](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/SortedArrayRemoveDups.java) | :green_heart:&nbsp;[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | |
 
 # In progress...
 

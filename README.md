@@ -1,13 +1,12 @@
 # Elements of Programming Interviews in Java
 
-The project contains:
-* LeetCode mappings for solved problems
-* solved variants for each problem in EPI book
+* LeetCode mappings for EPI book problems
+* solved EPI book variants
 
 Table description:
-* Problem -> problem name and number in EPI book
-* LeetCode -> question link on LeetCode
-* Variants -> solved EPI book variants in current project
+* Problem -> EPI book problem
+* LeetCode -> LeetCode question mapping
+* Variants -> solved EPI book variants for problem
 
 Levels
 * :green_heart:&nbsp; -> **Easy**

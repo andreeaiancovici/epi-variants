@@ -15,17 +15,17 @@ Space Complexity: O(1)
 public class SortedArrayRemoveDups {
 
     public static void main(String[] args) {
-        assertEquals(6, deleteDuplicates(Arrays.asList(2,3,5,5,7,11,11,11,13)));
+        assertEquals(6, deleteDuplicates(Arrays.asList(2, 3, 5, 5, 7, 11, 11, 11, 13)));
     }
 
     private static int deleteDuplicates(List<Integer> A) {
-        if(A.isEmpty()) {
+        if (A.isEmpty()) {
             return 0;
         }
 
         int indexToReplace = 1;
-        for(int i = 1; i < A.size(); i++) {
-            if(!A.get(i).equals(A.get(i - 1))) {
+        for (int i = 1; i < A.size(); i++) {
+            if (!A.get(i).equals(A.get(i - 1))) {
                 A.set(indexToReplace++, A.get(i));
             }
         }

@@ -13,16 +13,16 @@ Space Complexity: O(1)
 public class IntAsArrayIncrement {
 
     public static void main(String[] args) {
-        int[] digits = new int[]{4,3,2,1};
-        assertArrayEquals(new int[]{4,3,2,2}, plusOne(digits));
+        int[] digits = new int[]{4, 3, 2, 1};
+        assertArrayEquals(new int[]{4, 3, 2, 2}, plusOne(digits));
     }
 
     private static int[] plusOne(int[] digits) {
         int carry = 1, temp;
 
-        for(int i = digits.length - 1; i >= 0; i--) {
+        for (int i = digits.length - 1; i >= 0; i--) {
             temp = digits[i] + carry;
-            if(temp > 9) {
+            if (temp > 9) {
                 temp %= 10;
             } else {
                 carry = 0;
@@ -30,7 +30,7 @@ public class IntAsArrayIncrement {
             digits[i] = temp;
         }
 
-        if(carry == 1) {
+        if (carry == 1) {
             int[] digitsWithCarry = new int[digits.length + 1];
 
             digitsWithCarry[0] = 1;

@@ -43,12 +43,12 @@ Levels
 | 6.7 BuyAndSellStockTwice - TO-DO | :heart:&nbsp;[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | |
 | [6.8 PrimeSieve](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/PrimeSieve.java) | :yellow_heart:&nbsp;[Count Primes](https://leetcode.com/problems/count-primes/) | |
 | [6.9 ApplyPermutation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/ApplyPermutation.java) | | |
+| [6.10 NextPermutation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/NextPermutation.java) | :yellow_heart:&nbsp;[Next Permutation](https://leetcode.com/problems/next-permutation/) | |
 
 # In progress...
 
 |Problem|LeetCode|Similar questions|Similar questions
 |---|---|---|---|
-|Compute the next permutation|
 |Sample offline data|
 |Sample online data|
 |Compute random permutation|

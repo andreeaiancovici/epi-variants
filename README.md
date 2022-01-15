@@ -45,12 +45,12 @@ Levels
 | [6.9 ApplyPermutation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/ApplyPermutation.java) | | |
 | [6.10 NextPermutation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/NextPermutation.java) | :yellow_heart:&nbsp;[Next Permutation](https://leetcode.com/problems/next-permutation/) | |
 | [6.11 OfflineSampling](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/OfflineSampling.java) | | |
+| [6.12 OnlineSampling](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/OnlineSampling.java) | | |
 
 # In progress...
 
 |Problem|LeetCode|Similar questions|Similar questions
 |---|---|---|---|
-|Sample online data|
 |Compute random permutation|
 |Compute random subset|
 |Generate nonuniform random numbers|

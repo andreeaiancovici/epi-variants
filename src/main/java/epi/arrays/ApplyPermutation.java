@@ -11,7 +11,7 @@ Given an array A of n elements and a permutation P, apply P to A.
 A = [a,b,c,d]
 P = [2,0,1,3]
 R = [b,c,a,d]
-Time Complexity: (n)
+Time Complexity: O(n)
 Space Complexity: O(1)
  */
 public class ApplyPermutation {

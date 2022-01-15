@@ -5,13 +5,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import static org.junit.Assert.assertEquals;
-
 /*
 Implement an algorithm that takes as input an array of distinct elements and a size,
 and returns a subset of the given size of the array elements. All subsets should be
 equally likely. Return the result in input array itself.
-Time Complexity: (k)
+Time Complexity: O(k)
 Space Complexity: O(1)
  */
 public class OfflineSampling {

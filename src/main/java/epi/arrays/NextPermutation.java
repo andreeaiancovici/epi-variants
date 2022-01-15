@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 Write a program that takes as input a permutation, and returns the next permutation
 under dictionary ordering. If the permutation is the last permutation, return the
 empty array.
-Time Complexity: (n)
+Time Complexity: O(n)
 Space Complexity: O(1)
  */
 public class NextPermutation {

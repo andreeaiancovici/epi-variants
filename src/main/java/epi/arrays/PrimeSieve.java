@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 /*
 Write a program that takes an integer argument and returns all the primes between 1 and that integer.
-Time Complexity: (n/2 + n/3 + n/5+ n/7 + n/11 + ...) => O(sqrt(n) * log(log(n)))
+Time Complexity: O(n/2 + n/3 + n/5+ n/7 + n/11 + ...) => O(sqrt(n) * log(log(n)))
 Space Complexity: O(n)
  */
 

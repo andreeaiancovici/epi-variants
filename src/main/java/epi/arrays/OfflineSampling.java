@@ -18,7 +18,7 @@ public class OfflineSampling {
         randomSampling(2, Arrays.asList(1,2,3,4));
     }
 
-    private static void randomSampling(int k, List<Integer> A) {
+    public static void randomSampling(int k, List<Integer> A) {
         Random random = new Random();
         for(int i = 0; i < k; i++) {
             Collections.swap(A, i, i + random.nextInt(A.size() - i));

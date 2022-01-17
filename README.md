@@ -47,12 +47,12 @@ Levels
 | [6.11 OfflineSampling](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/OfflineSampling.java) | | |
 | [6.12 OnlineSampling](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/OnlineSampling.java) | | |
 | [6.13 RandomPermutation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/RandomPermutation.java) | :yellow_heart:&nbsp;[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | |
+| 6.14 RandomSubset - TO-DO | | |
 
 # In progress...
 
 |Problem|LeetCode|Similar questions|Similar questions
 |---|---|---|---|
-|Compute random subset|
 |Generate nonuniform random numbers|
 
 ## Strings

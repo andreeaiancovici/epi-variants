@@ -50,6 +50,11 @@ Levels
 | 6.14 RandomSubset - TO-DO | | |
 | [6.15 NonuniformRandomNumber](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/NonuniformRandomNumber.java) | | |
 
+## Multidimensional Arrays
+| Problem | LeetCode | Variants |
+| ------- | -------- | -------- |
+| [6.16 IsValidSudoku](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IsValidSudoku.java) | :yellow_heart:&nbsp;[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | |
+
 # In progress...
 
 ## Strings

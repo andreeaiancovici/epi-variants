@@ -54,6 +54,7 @@ Levels
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
 | [6.16 IsValidSudoku](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IsValidSudoku.java) | :yellow_heart:&nbsp;[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | |
+| [6.17 SpiralOrderingSegments](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/SpiralOrderingSegments.java) | :yellow_heart:&nbsp;[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | |
 
 # In progress...
 

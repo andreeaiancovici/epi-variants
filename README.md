@@ -53,8 +53,9 @@ Levels
 ## Multidimensional Arrays
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
-| [6.16 IsValidSudoku](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/IsValidSudoku.java) | :yellow_heart:&nbsp;[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | |
-| [6.17 SpiralOrderingSegments](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/SpiralOrderingSegments.java) | :yellow_heart:&nbsp;[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | |
+| [6.16 IsValidSudoku](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/multidimensionalarrays/IsValidSudoku.java) | :yellow_heart:&nbsp;[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | |
+| [6.17 SpiralOrderingSegments](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/multidimensionalarrays/SpiralOrderingSegments.java) | :yellow_heart:&nbsp;[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | |
+| [6.18 MatrixRotation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/multidimensionalarrays/MatrixRotation.java) | :yellow_heart:&nbsp;[Rotate Image](https://leetcode.com/problems/rotate-image/) | |
 
 # In progress...
 

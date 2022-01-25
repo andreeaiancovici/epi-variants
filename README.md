@@ -8,10 +8,8 @@ Table description:
 * LeetCode -> LeetCode question mapping
 * Variants -> solved EPI book variants for problem
 
-Levels
-* :green_heart:&nbsp; -> **Easy**
-* :yellow_heart:&nbsp; -> **Medium**
-* :heart:&nbsp; -> **Hard**
+### Levels
+<img src="https://img.shields.io/badge/-easy-brightgreen" alt="1"/> <img src="https://img.shields.io/badge/-medium-orange" alt="1"/> <img src="https://img.shields.io/badge/-hard-red" alt="1"/><br>
 
 ## Primitive Types
 

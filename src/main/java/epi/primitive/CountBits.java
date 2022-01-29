@@ -22,12 +22,12 @@ public class CountBits {
 
     private static short countBits(int x) {
         short count = 0;
-        int lastBit;
         while (x != 0) {
-            lastBit = x & 1;
-            if (lastBit == 1) {
+            // Check if last bit is 1
+            if ((x & 1) == 1) {
                 count++;
             }
+            // Unsigned right shift x in order to process the next bit
             x >>>= 1;
         }
         return count;

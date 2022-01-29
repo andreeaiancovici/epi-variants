@@ -2,10 +2,17 @@ package epi.primitive;
 
 import static org.junit.Assert.assertEquals;
 
-/*
-Count the number of bits that are set to 1 in an integer.
-Time Complexity: O(n)
-Space Complexity: O(1)
+/**
+ * Question:
+ * Count the number of bits that are set to 1 in an integer.
+ * ---
+ * Solution:
+ * We start iterating through each bit in the integer, starting from right to left.
+ * When one bit is processed using a mask, unsigned right-shift operation is applied
+ * in order to advance to the next left bit.
+ * ---
+ * Time Complexity: O(n) -> n is the number of bits in the integer
+ * Space Complexity: O(1)
  */
 public class CountBits {
 

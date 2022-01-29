@@ -8,14 +8,11 @@ Table description:
 * LeetCode -> LeetCode question mapping
 * Variants -> solved EPI book variants for problem
 
-### Levels
-<img src="https://img.shields.io/badge/-easy-brightgreen" alt="1"/> <img src="https://img.shields.io/badge/-medium-orange" alt="1"/> <img src="https://img.shields.io/badge/-hard-red" alt="1"/><br>
-
 ## Primitive Types
 
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
-| [Bootcamp: CountBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/CountBits.java) | :green_heart:&nbsp;[Counting Bits](https://leetcode.com/problems/counting-bits/) | |
+| [Bootcamp: CountBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/CountBits.java) | <a href="https://www.qries.com/"><img src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" href="https://leetcode.com/problems/counting-bits/"/></a> | |
 | [5.1 Parity ](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/Parity.java)| :green_heart:&nbsp;[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | |
 | [5.2 SwapBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/SwapBits.java) | | |
 | [5.3 ReverseBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ReverseBits.java) | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |

@@ -16,7 +16,7 @@ Table description:
 | [5.1 Parity ](/src/main/java/epi/primitive/_5/_1/Parity.java)| <a href="https://leetcode.com/problems/number-of-1-bits/"><img src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a> | |
 | [5.2 SwapBits](/src/main/java/epi/primitive/_5/_2/SwapBits.java) | | |
 | [5.3 ReverseBits](/src/main/java/epi/primitive/_5/_3/ReverseBits.java) | <a href="https://leetcode.com/problems/reverse-bits/"><img src="https://img.shields.io/badge/easy-Reverse%20Bits%20-brightgreen" /></a> | |
-| [5.4 ClosestIntSameWeight](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ClosestIntSameWeight.java) | | |
+| [5.4 ClosestIntSameWeight](/src/main/java/epi/primitive/_5/_4/ClosestIntSameWeight.java) | | [ClosestIntSameWeightConstantTime](/src/main/java/epi/primitive/_5/_4/variant/ClosestIntSameWeightConstantTime.java) |
 | [5.5 PrimitiveMultiply](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PrimitiveMultiply.java) | | |
 | [5.6 PrimitiveDivide](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PrimitiveDivide.java) | | |
 | [5.7 PowerXY](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PowerXY.java) | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |

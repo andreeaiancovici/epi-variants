@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * Compute the parity of a 64-bit number.
  * ---
  * Solution:
- * XOR trick -> 1 ^ 1 = 0 and 0 ^ 0 = 0
+ * XOR trick -> 1 ^ 1 = 0
  * Therefore, when iterating through bits in the 64-bit number:
  * - having an even number of 1s will result in parity 0 (for each 1 there is a corresponding 1 -> 0 parity)
  * - having an odd number of 1s will result in parity 1 (there is one 1 which doesn't have a corresponding 1 -> 1 parity)

@@ -12,9 +12,9 @@ Table description:
 
 | Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
-| [Bootcamp: CountBits](https://github.com/andreeaiancovici/epi-variants/blob/main/src/main/java/epi/primitive/CountBits.java) | <a href="https://leetcode.com/problems/counting-bits/"><img src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" /></a> | |
-| [5.1 Parity ](https://github.com/andreeaiancovici/epi-variants/blob/main/src/main/java/epi/primitive/_5/_1/Parity.java)| <a href="https://leetcode.com/problems/number-of-1-bits/"><img src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a> | |
-| [5.2 SwapBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/SwapBits.java) | | |
+| [Bootcamp: CountBits](/src/main/java/epi/primitive/CountBits.java) | <a href="https://leetcode.com/problems/counting-bits/"><img src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" /></a> | |
+| [5.1 Parity ](/src/main/java/epi/primitive/_5/_1/Parity.java)| <a href="https://leetcode.com/problems/number-of-1-bits/"><img src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a> | |
+| [5.2 SwapBits](/src/main/java/epi/primitive/_5/_2/SwapBits.java) | | |
 | [5.3 ReverseBits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ReverseBits.java) | :green_heart:&nbsp;[Reverse Bits](https://leetcode.com/problems/reverse-bits/) | |
 | [5.4 ClosestIntSameWeight](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ClosestIntSameWeight.java) | | |
 | [5.5 PrimitiveMultiply](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PrimitiveMultiply.java) | | |

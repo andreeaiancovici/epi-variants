@@ -12,8 +12,6 @@ import static org.junit.Assert.assertEquals;
  * You may use loops and functions that you write yourself.
  * These constraints imply, for example, that you cannot use increment or decrement, or test if x < y.
  * ---
- * Memo:
- * ---
  * Solution:
  * Use primitive algorithm for multiplication:
  *   11010 *

@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * ---
  * Solution:
  * We start iterating through each bit in the integer, starting from right to left.
- * When one bit is processed using a mask, unsigned right-shift operation is applied
+ * When one bit is processed using a 1 MASK, unsigned right-shift operation is applied
  * in order to advance to the next left bit.
  * ---
  * Time Complexity: O(n) -> n is the number of bits in the integer

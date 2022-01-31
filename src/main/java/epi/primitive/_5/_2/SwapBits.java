@@ -6,13 +6,15 @@ import static org.junit.Assert.assertEquals;
  * Question:
  * Implement code that takes as input a 64-bit integer and swaps the bits at indices i and j.
  * ---
- * Solution:
+ * Memo:
  * XOR trick -> 0 ^ 1 = 1 and 1 ^ 1 = 0
  * Therefore, we can change a bit:
  * - from 0 to 1
  * and
  * - from 1 to 0
  * by applying XOR 1.
+ * ---
+ * Solution:
  * We unsigned right shift x by i and j and apply a 1 MASK to isolate the bits.
  * If these bits are different, we swap them:
  * - we generate a MASK by left shifting 1 with i bits and do XOR

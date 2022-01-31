@@ -25,7 +25,7 @@ public class ClosestIntSameWeight {
     private static long closestIntSameBitCount(long x) {
         int count = 0;
         // Start from the right-most bit and compare it with its left neighbour, until they differ
-        while(((x >>> count) & 1L) == ((x >>> (count + 1)) & 1L)) {
+        while (((x >>> count) & 1L) == ((x >>> (count + 1)) & 1L)) {
             count++;
         }
         // We found 2 consecutive bits which differ

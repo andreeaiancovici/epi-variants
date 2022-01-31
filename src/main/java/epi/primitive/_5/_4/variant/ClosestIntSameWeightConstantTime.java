@@ -8,6 +8,13 @@ import static org.junit.Assert.assertEquals;
  * but has the same weight as x and their difference, |y- x|, is as small as possible.
  * Weight -> the number of 1s
  * ---
+ * Memo:
+ * Two's Complement algorithm for 11101010:
+ * 1. Reverse bits
+ * 00010101
+ * 2. Add 1
+ * 00010110
+ * ---
  * Solution:
  * We find the right-most bit set to 1.
  * Case 1 (found right-most bit is not first right-most bit)
@@ -16,12 +23,6 @@ import static org.junit.Assert.assertEquals;
  * Case 2 (found right-most bit is first right-most bit)
  * In this case, we need to find the right-most bit set to 0 having the right neighbour set to 1.
  * We can simply swap these 2 bits.
- * Two's Complement:
- * 11101010
- * 1. Reverse bits
- * 00010101
- * 2. Add 1
- * 00010110
  * ---
  * Time Complexity: O(1)
  * Space Complexity: O(1)
@@ -38,7 +39,7 @@ public class ClosestIntSameWeightConstantTime {
         long lowestSetBit = x & -x;
 
         // If right-most bit is exactly the first right-most bit
-        if((lowestSetBit & 1L) == 1L) {
+        if ((lowestSetBit & 1L) == 1L) {
             // Extract lowest unset bit
             long lowestNotSetBit = ~x & (x + 1);
             // Swap the lowest unset bit

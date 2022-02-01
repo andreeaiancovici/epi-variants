@@ -6,8 +6,6 @@ import static org.junit.Assert.assertEquals;
  * Question:
  * Given two positive integers, compute their quotient, using only the addition, subtraction, and shifting operators.
  * ---
- * Memo:
- * ---
  * Solution:
  * Find largest k such that 2^k * y <= x (2^k is a multiple for y).
  * Subtract 2^k * y from and add 2^k to result.

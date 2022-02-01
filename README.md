@@ -19,7 +19,7 @@ Table description:
 | [5.4 ClosestIntSameWeight](/src/main/java/epi/primitive/_5/_4/ClosestIntSameWeight.java) | | [ClosestIntSameWeightConstantTime](/src/main/java/epi/primitive/_5/_4/variant/ClosestIntSameWeightConstantTime.java) |
 | [5.5 PrimitiveMultiply](/src/main/java/epi/primitive/_5/_5/PrimitiveMultiply.java) | | |
 | [5.6 PrimitiveDivide](/src/main/java/epi/primitive/_5/_6/PrimitiveDivide.java) | | |
-| [5.7 PowerXY](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/PowerXY.java) | :yellow_heart:&nbsp;[Pow(x, n)](https://leetcode.com/problems/powx-n/) | |
+| [5.7 PowerXY](/src/main/java/epi/primitive/_5/_7/PowerXY.java) | <a href="https://leetcode.com/problems/powx-n/"><img src="https://img.shields.io/badge/medium-Pow(x%2C%20n)-orange" /></a> | |
 | [5.8 ReverseDigits](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/ReverseDigits.java) | :yellow_heart:&nbsp;[Reverse Integer](https://leetcode.com/problems/reverse-integer/) | |
 | [5.9 IsNumberPalindromic](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/IsNumberPalindromic.java) | :green_heart:&nbsp;[Palindrome Number](https://leetcode.com/problems/palindrome-number/) | |
 | [5.10 UniformRandomNumber](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/UniformRandomNumber.java) | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |

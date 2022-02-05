@@ -26,7 +26,7 @@ import static org.junit.Assert.assertEquals;
 public class PowerXY {
 
     public static void main(String[] args) {
-        assertEquals(16, power(2, 9), 0);
+        assertEquals(512, power(2, 9), 0);
         assertEquals(16, powerRecursive(2, 4), 0);
     }
 

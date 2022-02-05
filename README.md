@@ -22,7 +22,7 @@ Table description:
 | [5.7 PowerXY](/src/main/java/epi/primitive/_5/_7/PowerXY.java) | <a href="https://leetcode.com/problems/powx-n/"><img src="https://img.shields.io/badge/medium-Pow(x%2C%20n)-orange" /></a> | |
 | [5.8 ReverseDigits](/src/main/java/epi/primitive/_5/_8/ReverseDigits.java) | <a href="https://leetcode.com/problems/reverse-integer/"><img src="https://img.shields.io/badge/medium-Reverse%20Integer-orange" /></a> | |
 | [5.9 IsNumberPalindromic](/src/main/java/epi/primitive/_5/_9/IsNumberPalindromic.java) | <a href="https://leetcode.com/problems/palindrome-number/"><img src="https://img.shields.io/badge/easy-Palindrome%20Number-brightgreen" /></a> | |
-| [5.10 UniformRandomNumber](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/UniformRandomNumber.java) | :yellow_heart:&nbsp;[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/) | |
+| [5.10 UniformRandomNumber](/src/main/java/epi/primitive/_5/_10/UniformRandomNumber.java) | <a href="https://leetcode.com/problems/implement-rand10-using-rand7/"><img src="https://img.shields.io/badge/medium-%20Implement%20Rand10()%20Using%20Rand7()-orange" /></a> | |
 | [5.11 RectangleIntersection](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/primitive/RectangleIntersection.java) | :green_heart:&nbsp;[Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | |
 
 ## Arrays

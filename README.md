@@ -1,12 +1,9 @@
-# Elements of Programming Interviews in Java
+The original Elements of Programming Interviews repository can be found [here](https://github.com/adnanaziz/EPIJudge). <br/>
+The book containing the problems can be found here [Elements of Programming Interviews](http://amzn.to/2pMWIWH).
 
-* LeetCode mappings for EPI book problems
-* solved EPI book variants
-
-Table description:
-* Problem -> EPI book problem
-* LeetCode -> LeetCode question mapping
-* Variants -> solved EPI book variants for problem
+# Elements of Programming Interviews (Java)
+This repository contains solutions with detailed explanations for exercises from <b>Elements Of Programming Interviews</b> by Adnan Aziz, Tsung-Hsien Lee, and Amit Prakash. <br/>
+Additionaly, there are some proposed solutions to variant exercises and matching problems from [LeetCode](https://leetcode.com/).
 
 ## Primitive Types
 

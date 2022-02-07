@@ -9,49 +9,49 @@ import static org.junit.Assert.assertEquals;
  * ---
  * Solution:
  * We have 4 cases for relative positions between 2 rectangles:
- *
+ * <p>
  * x1     x2 x1`     x1`
  * ┌───────┐ ┌───────┐
  * │   R1  │ │   R2  │
  * │       │ │       │
  * └───────┘ │       │
- *           └───────┘
- *       x1`         x1`
- *       ┌───────────┐
+ * └───────┘
+ * x1`         x1`
+ * ┌───────────┐
  * x1    │  x2       │
  * ┌─────┼──┐        │
  * │   R1│  │  R2    │
  * └─────┼──┘        │
- *       │           │
- *       └───────────┘
- *
- *
- *  x1`          x2`
- *  ┌─────────────┐
- *  │  x1     x2  │
- *  │  ┌───────┐  │
- *  │  │   R1  │  │
- *  │  │       │  │
- *  │  └───────┘  │
- *  │      R2     │
- *  └─────────────┘
- *
- *  x1`      x2`
- *  ┌─────────┐
- *  │    x1   │     x2
- *  │    ┌────┼──────┐
- *  │ R2 │    │      │
- *  │    │    │ R1   │
- *  │    └────┼──────┘
- *  │         │
- *  └─────────┘
- *   x1`       x2`
- *   ┌──────────┐ ┌─────────┐
- *   │          │ │         │
- *   │    R2    │ │    R1   │
- *   │          │ │         │
- *   └──────────┘ └─────────┘
- *                 x1       x2
+ * │           │
+ * └───────────┘
+ * <p>
+ * <p>
+ * x1`          x2`
+ * ┌─────────────┐
+ * │  x1     x2  │
+ * │  ┌───────┐  │
+ * │  │   R1  │  │
+ * │  │       │  │
+ * │  └───────┘  │
+ * │      R2     │
+ * └─────────────┘
+ * <p>
+ * x1`      x2`
+ * ┌─────────┐
+ * │    x1   │     x2
+ * │    ┌────┼──────┐
+ * │ R2 │    │      │
+ * │    │    │ R1   │
+ * │    └────┼──────┘
+ * │         │
+ * └─────────┘
+ * x1`       x2`
+ * ┌──────────┐ ┌─────────┐
+ * │          │ │         │
+ * │    R2    │ │    R1   │
+ * │          │ │         │
+ * └──────────┘ └─────────┘
+ * x1       x2
  * ---
  * Time Complexity: O(1)
  * Space Complexity: O(1)
@@ -69,7 +69,7 @@ public class RectangleIntersection {
         // First we tackle the corner cases where there is no intersection (first and last drawing)
         // We compare the last edge (let's say A) (for both x and y axes) from R1 / R2 with the first edge from R2 / R1 (let's say B)
         // If any A < B then there is no intersection
-        if(R1.x + R1.width < R2.x || R2.x + R2.width < R1.x || R1.y + R1.height < R2.y || R2.y + R2.height < R1.y) {
+        if (R1.x + R1.width < R2.x || R2.x + R2.width < R1.x || R1.y + R1.height < R2.y || R2.y + R2.height < R1.y) {
             return rectangle;
         }
 
@@ -78,67 +78,19 @@ public class RectangleIntersection {
         // As we can see from the drawings, the intersection occurs when:
         // - x1` < x2
         // - x1 < x2`
-        if(R2.x < R1.x + R1.width || R1.x < R2.x + R2.width) {
+        if (R2.x < R1.x + R1.width || R1.x < R2.x + R2.width) {
             // Compute intersection x axis points
             rectangle.x = Math.max(R1.x, R2.x);
             rectangle.width = Math.min(R1.x + R1.width, R2.x + R2.width) - rectangle.x;
         }
 
         // Repeat the above step for y axis
-        if(R2.y < R1.y + R1.height || R1.y < R2.y + R2.height) {
+        if (R2.y < R1.y + R1.height || R1.y < R2.y + R2.height) {
             // Compute intersection y axis points
             rectangle.y = Math.max(R1.y, R2.y);
             rectangle.height = Math.min(R1.y + R1.height, R2.y + R2.height) - rectangle.y;
         }
 
         return rectangle;
-    }
-
-    public static class Rectangle {
-        int x, y, width, height;
-
-        public Rectangle(int x, int y, int width, int height) {
-            this.x = x;
-            this.y = y;
-            this.width = width;
-            this.height = height;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) {
-                return true;
-            }
-            if (o == null || getClass() != o.getClass()) {
-                return false;
-            }
-
-            Rectangle rectangle = (Rectangle)o;
-
-            if (x != rectangle.x) {
-                return false;
-            }
-            if (y != rectangle.y) {
-                return false;
-            }
-            if (width != rectangle.width) {
-                return false;
-            }
-            return height == rectangle.height;
-        }
-
-        @Override
-        public int hashCode() {
-            int result = x;
-            result = 31 * result + y;
-            result = 31 * result + width;
-            result = 31 * result + height;
-            return result;
-        }
-
-        @Override
-        public String toString() {
-            return "[" + x + ", " + y + ", " + width + ", " + height + "]";
-        }
     }
 }

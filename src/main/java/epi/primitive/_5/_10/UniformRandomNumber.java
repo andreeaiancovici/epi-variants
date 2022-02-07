@@ -30,7 +30,7 @@ import java.util.Random;
 public class UniformRandomNumber {
 
     public static void main(String[] args) {
-        System.out.println(uniformRandom(100,200));
+        System.out.println(uniformRandom(100, 200));
     }
 
     private static int uniformRandom(int lowerBound, int upperBound) {

@@ -1,8 +1,8 @@
-package variants.arrays._6._1;
+package epi.arrays._6._1.variant;
 
 import java.util.Arrays;
 
-import static variants.arrays._6._1.DutchNationalFlagWithoutPivot.Color.*;
+import static epi.arrays._6._1.variant.DutchNationalFlagWithoutPivot.Color.*;
 
 //Page 65 Variant
 //Time complexity O(n)

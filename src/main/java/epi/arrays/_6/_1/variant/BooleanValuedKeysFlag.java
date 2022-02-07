@@ -1,4 +1,4 @@
-package variants.arrays._6._1;
+package epi.arrays._6._1.variant;
 
 import java.util.Arrays;
 

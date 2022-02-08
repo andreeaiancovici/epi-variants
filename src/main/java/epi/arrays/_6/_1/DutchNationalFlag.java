@@ -4,33 +4,62 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import static epi.arrays._6._1.Color.*;
 import static org.junit.Assert.assertEquals;
 
-/*
-Given an array nums with n objects colored red, white, or blue, sort them in-place so that
-objects of the same color are adjacent, with the colors in the order red, white, and blue.
-We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
-Time Complexity: O(n)
-Space Complexity: O(1)
+/**
+ * Question:
+ * Write a program that takes an array A and an index i into A, and rearranges the
+ * elements such that all elements less than A[i] (the "pivot") appear first, followed by
+ * elements equal to the pivot, followed by elements greater than the pivot.
+ * ---
+ * Memo:
+ * Divide into sub-arrays using multiple pointers. Pointers can mark the beginning / end of an interval.
+ * E.g. lessThanPivot - end of interval, equalToPivot - end of interval, greaterThanPivot - beginning of interval
+ * ---
+ * Solution:
+ *  Use 3 counters in order to divide 4 sub-arrays:
+ *  - [0, lessThanPivot]
+ *  - (lessThanPivot, equalToPivot]
+ *  - (equalToPivot, greaterThanPivot]
+ *  - (greaterThanPivot, end)
+ *  equalToPivot index will be used to iterate through array.
+ *  1. When current element is greater than pivot, swap with greaterThanPivot and decrease greaterThanPivot index
+ *     Note: Don't increase equalToPivot index because swapped element needs to be processed as well
+ *  2. When current element is equal to pivot, increase equalToPivot index
+ *  3. When current element is less than pivot, swap with lessThanPivot and increase both lessThanPivot and equalToPivot indexes
+ * ---
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 public class DutchNationalFlag {
 
     public static void main(String[] args) {
-        List<Integer> A = Arrays.asList(2, 0, 2, 1, 1, 0);
-        sortColors(A);
-        assertEquals(Arrays.asList(0, 0, 1, 1, 2, 2), A);
+        List<Color> A = Arrays.asList(BLUE, RED, BLUE, WHITE, WHITE, RED, WHITE, RED);
+        sortColors(1, A);
+        assertEquals(Arrays.asList(RED, RED, RED, WHITE, WHITE, WHITE, BLUE, BLUE), A);
     }
 
-    private static void sortColors(List<Integer> A) {
-        int red = 0, white = 0, blue = A.size() - 1;
-
-        while (white <= blue) {
-            if (A.get(white) == 2) {
-                Collections.swap(A, white, blue--);
-            } else if (A.get(white) == 1) {
-                white++;
-            } else {
-                Collections.swap(A, white++, red++);
+    private static void sortColors(int pivotIndex , List<Color> A) {
+        Color pivotColor = A.get(pivotIndex);
+        int lessPivot = 0, equalPivot = 0, greaterPivot = A.size();
+        // When equalPivot meets greaterPivot, it means that we have processed all existing items
+        while (equalPivot < greaterPivot) {
+            // Decrease greaterPivot because we already covered that index
+            // Don't decrease equalPivot index, since we didn't processed the newly swapped item
+            if (pivotColor.ordinal() < A.get(equalPivot).ordinal()) {
+                Collections.swap(A, equalPivot, --greaterPivot);
+            }
+            // Increase both equalPivot and lessPivot indexes
+            // equalPivot will most likely have a pivot value after swap operation
+            // due to the fact that we already processed left side elements
+            // which can contain either lower or equal items
+            if (pivotColor.ordinal() > A.get(equalPivot).ordinal()) {
+                Collections.swap(A, lessPivot++, equalPivot++);
+            }
+            // If element is equal to pivot, we just increase equalPivot index
+            if (pivotColor.ordinal() == A.get(equalPivot).ordinal()) {
+                equalPivot++;
             }
         }
     }

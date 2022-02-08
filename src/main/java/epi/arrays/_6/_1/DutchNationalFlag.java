@@ -24,10 +24,10 @@ import static org.junit.Assert.assertEquals;
  *  - (equalToPivot, greaterThanPivot]
  *  - (greaterThanPivot, end)
  *  equalToPivot index will be used to iterate through array.
- *  1. When current element is greater than pivot, swap with greaterThanPivot and decrease greaterThanPivot index
- *     Note: Don't increase equalToPivot index because swapped element needs to be processed as well
+ *  1. When current element is less than pivot, swap with lessThanPivot and increase both lessThanPivot and equalToPivot indexes
  *  2. When current element is equal to pivot, increase equalToPivot index
- *  3. When current element is less than pivot, swap with lessThanPivot and increase both lessThanPivot and equalToPivot indexes
+ *  3. When current element is greater than pivot, swap with greaterThanPivot and decrease greaterThanPivot index
+ *     Note: Don't increase equalToPivot index because swapped element needs to be processed as well
  * ---
  * Time Complexity: O(n)
  * Space Complexity: O(1)
@@ -36,30 +36,32 @@ public class DutchNationalFlag {
 
     public static void main(String[] args) {
         List<Color> A = Arrays.asList(BLUE, RED, BLUE, WHITE, WHITE, RED, WHITE, RED);
-        sortColors(1, A);
+        dutchFlagPartition(1, A);
         assertEquals(Arrays.asList(RED, RED, RED, WHITE, WHITE, WHITE, BLUE, BLUE), A);
     }
 
-    private static void sortColors(int pivotIndex , List<Color> A) {
+    private static void dutchFlagPartition(int pivotIndex, List<Color> A) {
         Color pivotColor = A.get(pivotIndex);
-        int lessPivot = 0, equalPivot = 0, greaterPivot = A.size();
+        int lessPivot = 0, equalPivot = 0, greaterPivot = A.size() - 1;
         // When equalPivot meets greaterPivot, it means that we have processed all existing items
-        while (equalPivot < greaterPivot) {
-            // Decrease greaterPivot because we already covered that index
-            // Don't decrease equalPivot index, since we didn't processed the newly swapped item
-            if (pivotColor.ordinal() < A.get(equalPivot).ordinal()) {
-                Collections.swap(A, equalPivot, --greaterPivot);
-            }
+        while (equalPivot <= greaterPivot) {
             // Increase both equalPivot and lessPivot indexes
             // equalPivot will most likely have a pivot value after swap operation
             // due to the fact that we already processed left side elements
             // which can contain either lower or equal items
-            if (pivotColor.ordinal() > A.get(equalPivot).ordinal()) {
+            if (A.get(equalPivot).ordinal() < pivotColor.ordinal()) {
                 Collections.swap(A, lessPivot++, equalPivot++);
             }
+
             // If element is equal to pivot, we just increase equalPivot index
             if (pivotColor.ordinal() == A.get(equalPivot).ordinal()) {
                 equalPivot++;
+            }
+
+            // Decrease greaterPivot because we already covered that index
+            // Don't decrease equalPivot index, since we didn't processed the newly swapped item
+            if (pivotColor.ordinal() < A.get(equalPivot).ordinal()) {
+                Collections.swap(A, equalPivot, greaterPivot--);
             }
         }
     }

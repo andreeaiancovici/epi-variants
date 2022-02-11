@@ -1,18 +1,18 @@
 package epi.arrays._6._1.variant;
 
-import epi.arrays._6._1.Color;
+import epi.arrays._6._1.DutchFlagColor;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static epi.arrays._6._1.Color.*;
+import static epi.arrays._6._1.DutchFlagColor.*;
 import static org.junit.Assert.assertEquals;
 
 /**
  * Question:
  * Assuming that keys take one of three values, reorder the array so that all objects with the same key appear together.
- * The order of the sub-arrays is not important. Use 0(1) additional space and 0(n) time.
+ * The order of the sub-arrays is not important. Use O(1) additional space and O(n) time.
  * ---
  * Memo:
  * Divide into sub-arrays using multiple pointers. Pointers can mark the beginning / end of an interval.
@@ -38,12 +38,12 @@ import static org.junit.Assert.assertEquals;
 public class DutchNationalFlagWithoutPivot {
 
     public static void main(String[] args) {
-        List<Color> A = Arrays.asList(RED, BLUE, WHITE, RED, BLUE, BLUE, RED, BLUE, WHITE, WHITE);
+        List<DutchFlagColor> A = Arrays.asList(RED, BLUE, WHITE, RED, BLUE, BLUE, RED, BLUE, WHITE, WHITE);
         sortColors(A);
         assertEquals(Arrays.asList(RED, RED, RED, WHITE, WHITE, WHITE, BLUE, BLUE, BLUE, BLUE), A);
     }
 
-    private static void sortColors(List<Color> A) {
+    private static void sortColors(List<DutchFlagColor> A) {
         int red = 0, white = 0, blue = A.size() - 1;
         // When white meets blue, it means that we have processed all existing items
         while (white <= blue) {

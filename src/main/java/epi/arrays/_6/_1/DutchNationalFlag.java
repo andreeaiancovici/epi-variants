@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static epi.arrays._6._1.Color.*;
+import static epi.arrays._6._1.DutchFlagColor.*;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -35,13 +35,13 @@ import static org.junit.Assert.assertEquals;
 public class DutchNationalFlag {
 
     public static void main(String[] args) {
-        List<Color> A = Arrays.asList(BLUE, RED, BLUE, WHITE, WHITE, RED, WHITE, RED);
+        List<DutchFlagColor> A = Arrays.asList(BLUE, RED, BLUE, WHITE, WHITE, RED, WHITE, RED);
         dutchFlagPartition(1, A);
         assertEquals(Arrays.asList(RED, RED, RED, WHITE, WHITE, WHITE, BLUE, BLUE), A);
     }
 
-    private static void dutchFlagPartition(int pivotIndex, List<Color> A) {
-        Color pivotColor = A.get(pivotIndex);
+    private static void dutchFlagPartition(int pivotIndex, List<DutchFlagColor> A) {
+        DutchFlagColor pivotColor = A.get(pivotIndex);
         int lessPivot = 0, equalPivot = 0, greaterPivot = A.size() - 1;
         // When equalPivot meets greaterPivot, it means that we have processed all existing items
         while (equalPivot <= greaterPivot) {

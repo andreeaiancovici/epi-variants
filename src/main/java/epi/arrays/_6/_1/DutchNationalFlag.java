@@ -59,7 +59,7 @@ public class DutchNationalFlag {
             }
 
             // Decrease greaterPivot because we already covered that index
-            // Don't decrease equalPivot index, since we didn't processed the newly swapped item
+            // Don't increase equalPivot index, since we didn't processed the newly swapped item
             if (pivotColor.ordinal() < A.get(equalPivot).ordinal()) {
                 Collections.swap(A, equalPivot, greaterPivot--);
             }

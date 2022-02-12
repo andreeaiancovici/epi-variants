@@ -73,13 +73,13 @@ public class MauritiusNationalFlag {
             }
 
             // Decrease yellow because we already covered that index
-            // Don't decrease blue index, since we didn't processed the newly swapped item
+            // Don't increase blue index, since we didn't processed the newly swapped item
             if (ordinal == 3) { // yellow
                 Collections.swap(A, blue, yellow--);
             }
 
             // Decrease green because we already covered that index
-            // Don't decrease blue index, since we didn't processed the newly swapped item
+            // Don't increase blue index, since we didn't processed the newly swapped item
             if (ordinal == 4) { // green
                 Collections.swap(A, blue, green--);
                 // In case the newly decreased green index may take a current yellow index,

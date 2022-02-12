@@ -2,9 +2,20 @@ package epi.arrays._6._1.variant;
 
 import java.util.Arrays;
 
-//Page 65 Variant
-//Time complexity O(n)
-//Space complexity O(1)
+/**
+ * Question:
+ * Given an array A of n objects with Boolean-valued keys,
+ * reorder the array so that objects that have the key false appear first.
+ * The relative ordering of objects with key true should not change.
+ * Use O(1) additional space and O(n) time.
+ * ---
+ * Memo:
+ * ---
+ * Solution:
+ * ---
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 public class BooleanValuedKeysFlagWithRelativeTrueOrder {
 
     private static class BooleanObject {

@@ -63,7 +63,7 @@ public class DutchNationalFlagWithoutPivot {
             }
 
             // Decrease blue because we already covered that index
-            // Don't decrease white index, since we didn't processed the newly swapped item
+            // Don't increase white index, since we didn't processed the newly swapped item
             if (ordinal == 2) {
                 Collections.swap(A, white, blue--);
             }

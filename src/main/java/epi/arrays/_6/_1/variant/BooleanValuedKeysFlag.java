@@ -37,7 +37,7 @@ public class BooleanValuedKeysFlag {
         int fIndex = 0, tIndex = A.length - 1;
         // When fIndex meets tIndex, it means that we have processed all existing items
         while (fIndex <= tIndex) {
-            if(A[fIndex]) {
+            if (A[fIndex]) {
                 // Decrease tIndex because we already covered that index
                 // Don't increase fIndex, since we didn't processed the newly swapped item
                 swap(A, fIndex, tIndex--);
@@ -49,7 +49,7 @@ public class BooleanValuedKeysFlag {
         return A;
     }
 
-    private static void swap(boolean[] A, int i , int j) {
+    private static void swap(boolean[] A, int i, int j) {
         boolean temp = A[i];
         A[i] = A[j];
         A[j] = temp;

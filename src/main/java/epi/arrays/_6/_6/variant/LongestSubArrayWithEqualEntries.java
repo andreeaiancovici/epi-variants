@@ -1,9 +1,18 @@
-package variants;
+package epi.arrays._6._6.variant;
 
-//Page 71 Variant
-//Time complexity O(n)
-//Space complexity O(1)
-public class LongestSubarrayWithEqualEntries {
+/**
+ * Question:
+ * Write a program that takes an array of integers and finds the length of a longest sub-array
+ * all of whose entries are equal.
+ * ---
+ * Memo:
+ * ---
+ * Solution:
+ * ---
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
+public class LongestSubArrayWithEqualEntries {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 1, 2, 2, 2, 3, 3};
         int count = 1, countMax = 0;

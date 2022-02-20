@@ -7,7 +7,7 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 
 ## Primitive Types
 
-| Problem | LeetCode | Variants |
+| Problem | <span style="display: inline-block; width:500px">LeetCode</span> | Variants |
 | ------- | -------- | -------- |
 | [Bootcamp: CountBits](/src/main/java/epi/primitive/CountBits.java) | <a href="https://leetcode.com/problems/counting-bits/"><img src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" /></a> | |
 | [5.1 Parity ](/src/main/java/epi/primitive/_5/_1/Parity.java)| <a href="https://leetcode.com/problems/number-of-1-bits/"><img src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a> | |

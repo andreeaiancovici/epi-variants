@@ -23,7 +23,7 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 | [5.11 RectangleIntersection](/src/main/java/epi/primitive/_5/_11/RectangleIntersection.java) | <a href="https://leetcode.com/problems/rectangle-overlap/"><img src="https://img.shields.io/badge/easy-Rectangle%20Overlap-brightgreen" /></a> | [FourPointsFormRectangle](/src/main/java/epi/primitive/_5/_11/variant/FourPointsFormRectangle.java)<br/>❌ [RectangleIntersectionNotAlignedXY](/src/main/java/epi/primitive/_5/_11/variant/RectangleIntersectionNotAlignedXY.java) <b style='color:red'>(todo)<b/> |
 
 ## Arrays
-| Problem | LeetCode | Variants |
+| Problem | <span style="display: inline-block; width:500px">LeetCode</span> | Variants |
 | ------- | -------- | -------- |
 | [Bootcamp: EvenOddArray](/src/main/java/epi/arrays/EvenOddArray.java) | <a href="https://leetcode.com/problems/sort-array-by-parity/"><img src="https://img.shields.io/badge/easy-Sort%20Array%20By%20Parity-brightgreen" /></a> | |
 | [6.1 DutchNationalFlag](/src/main/java/epi/arrays/_6/_1/DutchNationalFlag.java) | <a href="https://leetcode.com/problems/sort-colors/"><img src="https://img.shields.io/badge/medium-Sort%20Colors-orange" /></a> | [DutchNationalFlagWithoutPivot](/src/main/java/epi/arrays/_6/_1/variant/DutchNationalFlagWithoutPivot.java)<br/>[MauritiusNationalFlag](/src/main/java/epi/arrays/_6/_1/variant/MauritiusNationalFlag.java)<br/>[BooleanValuedKeysFlag](/src/main/java/epi/arrays/_6/_1/variant/BooleanValuedKeysFlag.java)<br/>[BooleanValuedKeysFlagWithRelativeTrueOrder](/src/main/java/epi/arrays/_6/_1/variant/BooleanValuedKeysFlagWithRelativeTrueOrder.java)|

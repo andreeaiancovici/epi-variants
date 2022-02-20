@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
  * Solution:
  * We keep an index (indexToReplace) for knowing where to do a replacement, so we can ignore the key.
  * While iterating the array, if we encounter the key, we don't increment the replacement index.
- * Otherwise, if an element is different than the key, we do the replacement at indexToReplace.
+ * Otherwise, if an element is different than the key,we do the replacement at indexToReplace and increment it.
  * ---
  * Time Complexity: O(n)
  * Space Complexity: O(1)

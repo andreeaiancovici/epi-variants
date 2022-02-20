@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
  * The array is sorted, so we need to figure out when a number is changing.
  * We keep an index (indexToReplace) for knowing where to do a replacement, so we can ignore the duplicates.
  * While iterating the array, if consecutive numbers are the same, we don't increment the replacement index.
- * Otherwise, if an element is different than its previous, we do the replacement at indexToReplace.
+ * Otherwise, if an element is different than its previous, we do the replacement at indexToReplace and increment it.
  * ---
  * Time Complexity: O(n)
  * Space Complexity: O(1)

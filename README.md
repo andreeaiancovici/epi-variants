@@ -7,7 +7,7 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 
 ## Primitive Types
 
-| Problem | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LeetCode &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| Variants |
+| Problem | LeetCode | Variants |
 | ------- | -------- | -------- |
 | [Bootcamp: CountBits](/src/main/java/epi/primitive/CountBits.java) | <a href="https://leetcode.com/problems/counting-bits/"><img style="max-width: max-content" src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" /></a> | |
 | [5.1 Parity ](/src/main/java/epi/primitive/_5/_1/Parity.java)| <a href="https://leetcode.com/problems/number-of-1-bits/"><img style="max-width: max-content" src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a> | |
@@ -23,14 +23,14 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 | [5.11 RectangleIntersection](/src/main/java/epi/primitive/_5/_11/RectangleIntersection.java) | <a href="https://leetcode.com/problems/rectangle-overlap/"><img style="max-width: max-content" src="https://img.shields.io/badge/easy-Rectangle%20Overlap-brightgreen" /></a> | [FourPointsFormRectangle](/src/main/java/epi/primitive/_5/_11/variant/FourPointsFormRectangle.java)<br/>❌ [RectangleIntersectionNotAlignedXY](/src/main/java/epi/primitive/_5/_11/variant/RectangleIntersectionNotAlignedXY.java) <b style='color:red'>(todo)<b/> |
 
 ## Arrays
-| Problem | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; LeetCode &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Variants |
+| Problem | <div width="800">LeetCode<div/> | Variants |
 | ------- | -------- | -------- |
 | [Bootcamp: EvenOddArray](/src/main/java/epi/arrays/EvenOddArray.java) | <a href="https://leetcode.com/problems/sort-array-by-parity/"><img style="max-width: max-content" src="https://img.shields.io/badge/easy-Sort%20Array%20By%20Parity-brightgreen" /></a> | |
 | [6.1 DutchNationalFlag](/src/main/java/epi/arrays/_6/_1/DutchNationalFlag.java) | <a href="https://leetcode.com/problems/sort-colors/"><img style="max-width: max-content" src="https://img.shields.io/badge/medium-Sort%20Colors-orange" /></a> | [DutchNationalFlagWithoutPivot](/src/main/java/epi/arrays/_6/_1/variant/DutchNationalFlagWithoutPivot.java)<br/>[MauritiusNationalFlag](/src/main/java/epi/arrays/_6/_1/variant/MauritiusNationalFlag.java)<br/>[BooleanValuedKeysFlag](/src/main/java/epi/arrays/_6/_1/variant/BooleanValuedKeysFlag.java)<br/>[BooleanValuedKeysFlagWithRelativeTrueOrder](/src/main/java/epi/arrays/_6/_1/variant/BooleanValuedKeysFlagWithRelativeTrueOrder.java)|
 | [6.2 IntAsArrayIncrement](/src/main/java/epi/arrays/_6/_2/IntAsArrayIncrement.java) | <a href="https://leetcode.com/problems/plus-one/"><img style="max-width: max-content" src="https://img.shields.io/badge/easy-Plus%20One-brightgreen" /></a> | [AddBinary](/src/main/java/epi/arrays/_6/_2/variant/AddBinary.java) |
 | [6.3 IntAsArrayMultiply](/src/main/java/epi/arrays/_6/_3/IntAsArrayMultiply.java) | | |
 | [6.4 AdvanceByOffsets](/src/main/java/epi/arrays/_6/_4/AdvanceByOffsets.java) | <a href="https://leetcode.com/problems/jump-game/"><img style="max-width: max-content" src="https://img.shields.io/badge/medium-Jump%20Game-orange" /></a> | [MinimumStepsAdvanceByOffsets](/src/main/java/epi/arrays/_6/_4/variant/MinimumStepsAdvanceByOffsets.java) |
-| [6.5 SortedArrayRemoveDups](/src/main/java/epi/arrays/_6/_5/SortedArrayRemoveDups.java) | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/"><img style="max-width: max-content !important;" src="https://img.shields.io/badge/easy-Remove%20Duplicates%20from%20Sorted%20Array-brightgreen" /></a> | [ArrayRemoveKey](/src/main/java/epi/arrays/_6/_5/variant/ArrayRemoveKey.java)<br/>[SortedArrayMTimes](/src/main/java/epi/arrays/_6/_5/variant/SortedArrayMTimes.java) |
+| [6.5 SortedArrayRemoveDups](/src/main/java/epi/arrays/_6/_5/SortedArrayRemoveDups.java) | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/"><img src="https://img.shields.io/badge/easy-Remove%20Duplicates%20from%20Sorted%20Array-brightgreen" /></a> | [ArrayRemoveKey](/src/main/java/epi/arrays/_6/_5/variant/ArrayRemoveKey.java)<br/>[SortedArrayMTimes](/src/main/java/epi/arrays/_6/_5/variant/SortedArrayMTimes.java) |
 | [6.6 BuyAndSellStock](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/BuyAndSellStock.java) | :green_heart:&nbsp;[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
 | 6.7 BuyAndSellStockTwice - TO-DO | :heart:&nbsp;[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | |
 | [6.8 PrimeSieve](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/PrimeSieve.java) | :yellow_heart:&nbsp;[Count Primes](https://leetcode.com/problems/count-primes/) | |

@@ -30,7 +30,7 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 | [6.2 IntAsArrayIncrement](/src/main/java/epi/arrays/_6/_2/IntAsArrayIncrement.java) | <a href="https://leetcode.com/problems/plus-one/"><img style="max-width: max-content" src="https://img.shields.io/badge/easy-Plus%20One-brightgreen" /></a> | [AddBinary](/src/main/java/epi/arrays/_6/_2/variant/AddBinary.java) |
 | [6.3 IntAsArrayMultiply](/src/main/java/epi/arrays/_6/_3/IntAsArrayMultiply.java) | | |
 | [6.4 AdvanceByOffsets](/src/main/java/epi/arrays/_6/_4/AdvanceByOffsets.java) | <a href="https://leetcode.com/problems/jump-game/"><img style="max-width: max-content" src="https://img.shields.io/badge/medium-Jump%20Game-orange" /></a> | [MinimumStepsAdvanceByOffsets](/src/main/java/epi/arrays/_6/_4/variant/MinimumStepsAdvanceByOffsets.java) |
-| [6.5 SortedArrayRemoveDups](/src/main/java/epi/arrays/_6/_5/SortedArrayRemoveDups.java) | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/"><img alt="name_for_alt" src="https://img.shields.io/badge/easy-Remove%20Duplicates%20from%20Sorted%20Array-brightgreen" /></a> | [ArrayRemoveKey](/src/main/java/epi/arrays/_6/_5/variant/ArrayRemoveKey.java)<br/>[SortedArrayMTimes](/src/main/java/epi/arrays/_6/_5/variant/SortedArrayMTimes.java) |
+| [6.5 SortedArrayRemoveDups](/src/main/java/epi/arrays/_6/_5/SortedArrayRemoveDups.java) | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/"><img width=100% src="https://img.shields.io/badge/easy-Remove%20Duplicates%20from%20Sorted%20Array-brightgreen" /></a> | [ArrayRemoveKey](/src/main/java/epi/arrays/_6/_5/variant/ArrayRemoveKey.java)<br/>[SortedArrayMTimes](/src/main/java/epi/arrays/_6/_5/variant/SortedArrayMTimes.java) |
 | [6.6 BuyAndSellStock](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/BuyAndSellStock.java) | :green_heart:&nbsp;[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | |
 | 6.7 BuyAndSellStockTwice - TO-DO | :heart:&nbsp;[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | |
 | [6.8 PrimeSieve](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/PrimeSieve.java) | :yellow_heart:&nbsp;[Count Primes](https://leetcode.com/problems/count-primes/) | |
@@ -60,7 +60,3 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 |7.5 Test palindromicity|https://leetcode.com/problems/valid-palindrome/|:green_heart:&nbsp;**Easy**|Valid Palindrome II, Palindrome Linked List| |
 |7.6 Reverse all the words in a sentence|https://leetcode.com/problems/reverse-words-in-a-string/|:yellow_heart:&nbsp;**Medium**|Reverse Words in a String II| |
 |7.7 Compute all mnemonics for a phone number|https://leetcode.com/problems/letter-combinations-of-a-phone-number/|:yellow_heart:&nbsp;**Medium**|Generate Parentheses, Combination Sum, Binary Watch| |
-  
-img[alt=name_for_alt] {
-  width: 100%;
-}

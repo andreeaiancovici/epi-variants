@@ -36,14 +36,14 @@ public class FourPointsFormRectangle {
         Set<Integer> uniqueDistances = new TreeSet<>();
 
         // Compute distances between each 2 points
-        for(int i = 0; i < points.size() - 1; i++) {
-            for(int j = i + 1; j < points.size(); j++) {
+        for (int i = 0; i < points.size() - 1; i++) {
+            for (int j = i + 1; j < points.size(); j++) {
                 uniqueDistances.add(distance(points.get(i), points.get(j)));
             }
         }
 
         //If we have more than 3 distances (rectangle length, width and diagonal), the points don't form a rectangle
-        if(uniqueDistances.size() > 3) {
+        if (uniqueDistances.size() > 3) {
             return false;
         }
 

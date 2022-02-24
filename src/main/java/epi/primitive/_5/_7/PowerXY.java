@@ -34,15 +34,15 @@ public class PowerXY {
     private static double power(double x, int y) {
         // If y is negative, apply mathematical changes
         // x^(-2) -> (1/x)^2
-        if(y < 0) {
+        if (y < 0) {
             y = -y;
-            x = 1/x;
+            x = 1 / x;
         }
         double result = 1;
         // y keeps the power
         // Let's take for example y = 9 = 1 + 2 + 2 + 2 + 2 = 1 + 4 + 4 = 1 + 8 = 1 + 2^3
-        while(y != 0) {
-            if((y & 1) == 1) {
+        while (y != 0) {
+            if ((y & 1) == 1) {
                 // If number is odd, first multiplication will be with x^1
                 // Second multiplication is when y was divided and it equals 1
                 // Second multiplication implies x^(2^k), where k is the number of times the power y has been divided
@@ -60,11 +60,11 @@ public class PowerXY {
 
     // Recursive
     private static double powerRecursive(double x, int y) {
-        if(y == 0) {
+        if (y == 0) {
             return 1;
         }
         double result = powerRecursive(x, y >>> 1);
-        if((y & 1) == 1) {
+        if ((y & 1) == 1) {
             return result * result * x;
         } else {
             return result * result;

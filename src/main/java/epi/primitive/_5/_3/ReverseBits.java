@@ -29,6 +29,13 @@ public class ReverseBits {
     // 16 bit long cache
     private static final long[] precomputedReverse = new long[1 << 16];
 
+    static {
+        // For all 16-bit numbers we compute the reversed bit form
+        for (int i = 0; i < (1 << 16); i++) {
+            precomputedReverse[i] = reverseBits(i, 15);
+        }
+    }
+
     private static long swapBits(long x, int i, int j) {
         // If bits at positions i and j are different, we swap them
         if (((x >>> i) & 1) != ((x >>> j) & 1)) {
@@ -48,13 +55,6 @@ public class ReverseBits {
             x = swapBits(x, i, j);
         }
         return x;
-    }
-
-    static {
-        // For all 16-bit numbers we compute the reversed bit form
-        for (int i = 0; i < (1 << 16); i++) {
-            precomputedReverse[i] = reverseBits(i, 15);
-        }
     }
 
     public static void main(String[] args) {

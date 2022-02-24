@@ -32,7 +32,7 @@ public class ReverseDigits {
     public static long reverse(int x) {
         boolean isNegative = false;
 
-        if(x < 0) {
+        if (x < 0) {
             isNegative = true;
             x *= -1;
         }
@@ -40,16 +40,16 @@ public class ReverseDigits {
         int reversedX = 0;
 
         // Iterate over each digit from x, starting from left to right;
-        while(x > 0) {
+        while (x > 0) {
             // Check if next processing of result will catch an overflow
 
             // First we check if result * 10 is greater than maximum integer
-            if(reversedX > Integer.MAX_VALUE / 10) {
+            if (reversedX > Integer.MAX_VALUE / 10) {
                 return 0;
             }
 
             // Second we check if result * 10 equals maximum integer and last digit of result is higher than 7
-            if(reversedX == Integer.MAX_VALUE / 10 && reversedX % 10 > 7) {
+            if (reversedX == Integer.MAX_VALUE / 10 && reversedX % 10 > 7) {
                 return 0;
             }
 
@@ -60,7 +60,7 @@ public class ReverseDigits {
         }
 
         // Add correct sign to result
-        if(isNegative) {
+        if (isNegative) {
             reversedX *= -1;
         }
 

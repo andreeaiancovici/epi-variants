@@ -42,7 +42,7 @@ public class SortedArrayMTimes {
         int occurrence = Math.min(2, m);
 
         for (int i = 1; i < A.size(); i++) {
-            if(A.get(i).equals(A.get(i - 1))) {
+            if (A.get(i).equals(A.get(i - 1))) {
                 // If we not met yet the required no. of occurrences, continue to do replacements
                 // and increment the replacement index
                 if (count < occurrence) {

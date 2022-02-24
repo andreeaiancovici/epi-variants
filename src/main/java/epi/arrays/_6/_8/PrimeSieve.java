@@ -58,8 +58,8 @@ public class PrimeSieve {
         }
 
         List<Integer> primes = new ArrayList<>();
-        for(int i = 2; i < isPrime.size(); i++) {
-            if(isPrime.get(i)) {
+        for (int i = 2; i < isPrime.size(); i++) {
+            if (isPrime.get(i)) {
                 primes.add(i);
             }
         }

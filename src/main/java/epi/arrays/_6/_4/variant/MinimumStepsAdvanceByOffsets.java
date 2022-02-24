@@ -31,11 +31,11 @@ public class MinimumStepsAdvanceByOffsets {
     private static int getMinimumNumberOfSteps(List<Integer> maxAdvanceSteps) {
         int jumps = 0, currentJump = 0, farthestJump = 0;
 
-        for(int i = 0; i < maxAdvanceSteps.size() - 1; i++) {
+        for (int i = 0; i < maxAdvanceSteps.size() - 1; i++) {
             // Compute the farthest jump int current interval [i, current jump]
             farthestJump = Math.max(farthestJump, maxAdvanceSteps.get(i) + i);
             // Check if we reached end of the current interval [i, current jump]
-            if(i == currentJump) {
+            if (i == currentJump) {
                 // assign new current jump
                 currentJump = farthestJump;
                 // we did a jump

@@ -33,10 +33,10 @@ public class LongestSubArrayWithEqualEntries {
 
         // start with an array of size 1: i = 0 and j = 1
         int i = 0;
-        while(i < nums.size()) {
+        while (i < nums.size()) {
             int j = i + 1;
             // increase end index as long as we have equal entries
-            while(j < nums.size() && nums.get(j - 1).equals(nums.get(j))) {
+            while (j < nums.size() && nums.get(j - 1).equals(nums.get(j))) {
                 length++;
                 j++;
             }

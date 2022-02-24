@@ -31,9 +31,9 @@ public class ArrayRemoveKey {
     private static int deleteKey(List<Integer> A, int key) {
         int indexToReplace = 0;
 
-        for(int i = 0; i < A.size(); i++) {
+        for (int i = 0; i < A.size(); i++) {
             // If element is not equal to key, we should proceed with replacement
-            if(!A.get(i).equals(key)) {
+            if (!A.get(i).equals(key)) {
                 A.set(indexToReplace++, A.get(i));
             }
         }

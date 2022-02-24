@@ -23,24 +23,6 @@ import static org.junit.Assert.assertArrayEquals;
  */
 public class BooleanValuedKeysFlagWithRelativeTrueOrder {
 
-    private static class BooleanObject {
-        boolean key;
-        int value;
-
-        BooleanObject(boolean key, int value) {
-            this.key = key;
-            this.value = value;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (o == null || getClass() != o.getClass()) return false;
-            BooleanObject that = (BooleanObject) o;
-            return key == that.key && value == that.value;
-        }
-    }
-
     public static void main(String[] args) {
         BooleanObject[] sortedArray = sort(new BooleanObject[]{
                 new BooleanObject(false, 1),
@@ -71,9 +53,9 @@ public class BooleanValuedKeysFlagWithRelativeTrueOrder {
     private static BooleanObject[] sort(BooleanObject[] A) {
         int end = A.length - 1;
 
-        while(0 <= end) {
+        while (0 <= end) {
             // if element is true, decrease index
-            if(A[end].key) {
+            if (A[end].key) {
                 end--;
             } else {
                 // we found a false element
@@ -86,7 +68,7 @@ public class BooleanValuedKeysFlagWithRelativeTrueOrder {
                 }
 
                 // if we found an element, proceed with replacement
-                if(0 <= index) {
+                if (0 <= index) {
                     swap(A, index, end);
                 }
 
@@ -103,5 +85,23 @@ public class BooleanValuedKeysFlagWithRelativeTrueOrder {
         BooleanObject temp = A[i];
         A[i] = A[j];
         A[j] = temp;
+    }
+
+    private static class BooleanObject {
+        boolean key;
+        int value;
+
+        BooleanObject(boolean key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            BooleanObject that = (BooleanObject) o;
+            return key == that.key && value == that.value;
+        }
     }
 }

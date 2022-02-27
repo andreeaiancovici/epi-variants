@@ -36,7 +36,7 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 | [6.8 PrimeSieve](src/main/java/epi/arrays/_6/_8/PrimeSieve.java) | <a href="https://leetcode.com/problems/count-primes/"><img src="https://img.shields.io/badge/medium-Count%20Primes-orange" /></a> | |
 | [6.9 ApplyPermutation](/src/main/java/epi/arrays/_6/_9/ApplyPermutation.java) | | [InversePermutation](/src/main/java/epi/arrays/_6/_9/variant/InversePermutation.java) |
 | [6.10 NextPermutation](/src/main/java/epi/arrays/_6/_10/NextPermutation.java) | <a href="https://leetcode.com/problems/next-permutation/"><img src="https://img.shields.io/badge/medium-Next%20Permutation-orange" /></a> | [ComputeKthPermutation](/src/main/java/epi/arrays/_6/_10/variant/ComputeKthPermutation.java)<br/>[ComputePreviousPermutation](/src/main/java/epi/arrays/_6/_10/variant/ComputePreviousPermutation.java) |
-| [6.11 OfflineSampling](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/OfflineSampling.java) | | |
+| [6.11 OfflineSampling](/src/main/java/epi/arrays/_6/_11/OfflineSampling.java) | | [RandStandardC](/src/main/java/epi/arrays/_6/_11/variant/RandStandardC.java) |
 | [6.12 OnlineSampling](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/OnlineSampling.java) | | |
 | [6.13 RandomPermutation](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/RandomPermutation.java) | :yellow_heart:&nbsp;[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) | |
 | 6.14 RandomSubset - TO-DO | | |

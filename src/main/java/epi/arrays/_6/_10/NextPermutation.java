@@ -18,10 +18,10 @@ import static org.junit.Assert.assertEquals;
  *  - last 2 digits are in increasing order -> reverse them [0,2,3,1]
  * - [0,3,2,1]
  *  - starting with the end, find the first digit which is greater than its left neighbour -> 3
- *  - get the left neighbour (let's call it index1) -> 0 (if we arrived to -1, permutation is the last one)
- *  - starting with the end, find the first digit which is equal or lower than the digit we search at the first step (let's call it index2) -> 1
+ *  - get the left neighbour -> 0 (if we arrived to -1, permutation is the last one)
+ *  - starting with the end, find the first digit which is equal or lower than the digit we search at the first step -> 1
  *  - swap indexes -> [1,3,2,0]
- *  - reverse all digit from the right of our first found digit -> [2,0] -> [0,2]
+ *  - reverse all digits from the right of our first found digit -> [2,0] -> [0,2]
  *  - final result -> [1,3,0,2]
  * ---
  * Time Complexity: O(n)
@@ -68,7 +68,7 @@ public class NextPermutation {
 
             Collections.swap(perm, leftIndex, rightIndex);
 
-            // Swap the right side of the found at first step
+            // Reverse the right side of the found index at first step
             int mid = (n - 1 - index) / 2;
             for (int j = 0; j <= mid; j++) {
                 Collections.swap(perm, j + index, n - 1 - j);

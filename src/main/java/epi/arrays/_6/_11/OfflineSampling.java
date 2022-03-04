@@ -12,8 +12,14 @@ import java.util.Random;
  * equally likely. Return the result in input array itself.
  * ---
  * Memo:
+ * Fisher-Yates Algorithm (array shuffling)
+ * Pseudocode
+ * for i in [0, n - 1]
+ *  find random j in (i, n - 1]
+ *  swap i and j
  * ---
  * Solution:
+ * Apply Fisher-Yates algorithm for array shuffling, keeping in mind that we will only shuffle k positions.
  * ---
  * Time Complexity: O(k)
  * Space Complexity: O(1)

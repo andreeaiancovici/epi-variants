@@ -1,4 +1,4 @@
-package epi.multidimensionalarrays;
+package epi.arrays.multidimensional._6._17;
 
 import java.util.ArrayList;
 import java.util.Arrays;

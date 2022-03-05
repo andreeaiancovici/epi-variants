@@ -40,7 +40,7 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 | [6.12 OnlineSampling](/src/main/java/epi/arrays/_6/_12/OnlineSampling.java) | | |
 | [6.13 RandomPermutation](/src/main/java/epi/arrays/_6/_13/RandomPermutation.java) | <a href="https://leetcode.com/problems/shuffle-an-array/"><img src="https://img.shields.io/badge/medium-Shuffle%20an%20Array-orange" /></a> | |
 | ❌[6.14 RandomSubset](/src/main/java/epi/arrays/_6/_14/RandomSubset.java) <b style='color:red'>(todo)<b/> | | |
-| [6.15 NonuniformRandomNumber](https://github.com/andreeaiancovici/ElementsOfProgrammingInterviews-Variants/blob/main/src/main/java/epi/arrays/NonuniformRandomNumber.java) | | |
+| [6.15 NonuniformRandomNumber](/src/main/java/epi/arrays/_6/_15/NonuniformRandomNumber.java) | | [NonuniformRandomNumberExpDist](/src/main/java/epi/arrays/_6/_15/variant/NonuniformRandomNumberExpDist.java) |
 
 ## Multidimensional Arrays
 | Problem | LeetCode | Variants |

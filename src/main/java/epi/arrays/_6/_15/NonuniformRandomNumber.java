@@ -1,13 +1,21 @@
-package epi.arrays;
+package epi.arrays._6._15;
 
 import java.util.*;
 
-/*
-You are given n numbers as well as probabilities [p0,p1,...pn-1] which sum up to
-1. Given a random number generator that produces values in [0,1] uniformly, how
-would you generate one of the n numbers according to the specified probabilities?
-Time Complexity: O(n)
-Space Complexity: O(1)
+/**
+ * Question:
+ * You are given n numbers as well as probabilities [p0,p1,...pn-1] which sum up to 1.
+ * Given a random number generator that produces values in [0,1] uniformly, how
+ * would you generate one of the n numbers according to the specified probabilities?
+ * ---
+ * Solution:
+ * When probabilities are not the same, we can solve the problem by partitioning the interval [0, 1]
+ * into n disjoint segments, in a way so that the length of the i-th interval is proportional to pi.
+ * Then we select a number uniformly at random in the interval [0, 1], and return the number
+ * corresponding to the interval the randomly generated number falls in.
+ * ---
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
  */
 public class NonuniformRandomNumber {
 
@@ -16,8 +24,10 @@ public class NonuniformRandomNumber {
     }
 
     public static int nonuniformRandomNumberGeneration(List<Integer> values,
-                                     List<Double> probabilities) {
+                                                       List<Double> probabilities) {
         List<Double> intervals = new ArrayList<>();
+        // Compute probability intervals which sum up from 0 to 1
+        // [p0;p0 + p1),[p0 + p1;p0 + p1 + p2)...[p0 + p1 + ... + pn-1;p0 + p1 + ... + pn-1 + pn] - probability intervals
         for (int i = 0; i < probabilities.size(); i++) {
             if (i == 0) {
                 intervals.add(probabilities.get(i));
@@ -29,8 +39,10 @@ public class NonuniformRandomNumber {
         Random random = new Random();
         double probability = random.nextDouble();
 
+        // Once the intervals array is constructed (which takes O(n)),
+        // we can use binary search to find an element in O(log(n))
         int index = Collections.binarySearch(intervals, probability);
-        if(index < 0) {
+        if (index < 0) {
             // When a key is not present in the array, Collections.binarySearch()
             // returns the negative of 1 plus the smallest index whose entry
             // is greater than the key.

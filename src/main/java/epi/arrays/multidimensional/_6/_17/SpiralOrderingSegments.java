@@ -6,10 +6,19 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-/*
-Write a program which takes an nxn 2D array and returns the spiral ordering of the array.
-Time Complexity: O(n^2)
-Space Complexity: O(1)
+/**
+ * Question:
+ * Write a program which takes an nxn 2D array and returns the spiral ordering of the array.
+ * ---
+ * Solution:
+ * Iterate over each layer from a matrix, and perform rotation, starting from outer layers to inner ones.
+ * Implementation should be iterative. We will start with a brut-force check of the first outer layer.
+ * Second step is to recognize that the check in child layers is similar,
+ * so we start refactoring a generic matrix spiral ordering method -> matrixInSpiralOrderHelper.
+ * In case the matrix has an odd size, we need to add manually the last inner layer, which is in fact a single cell.
+ * ---
+ * Time Complexity: O(n^2)
+ * Space Complexity: O(1)
  */
 public class SpiralOrderingSegments {
 
@@ -27,9 +36,12 @@ public class SpiralOrderingSegments {
         List<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < size; i++) {
+            // Iterate over each layer and perform spiral ordering
             matrixInSpiralOrderHelper(squareMatrix, i, size - 1 - i, i, size - 1 - i, result);
         }
 
+        // If matrix has an odd size, we need to manually add the last inner layer,
+        // which is represented by the center cell
         if (size % 2 != 0) {
             int middle = size / 2;
             result.add(squareMatrix.get(middle).get(middle));

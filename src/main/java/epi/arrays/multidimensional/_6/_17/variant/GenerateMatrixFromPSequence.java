@@ -12,8 +12,6 @@ import static org.junit.Assert.assertEquals;
  * Given a sequence of integers P, compute a 2D array A whose spiral order is P.
  * (Assume the size of P is n^2 for some integer n.)
  * ---
- * Memo:
- * ---
  * Solution:
  * Compute size and number of layers in result matrix.
  * Iterate over each layer, keeping indexes for start / end of rows and columns.

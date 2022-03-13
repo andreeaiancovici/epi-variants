@@ -67,7 +67,7 @@ public class SpiralOrderingForMxNMatrix {
                 Arrays.asList(6, 1, 3)
         )));
 
-        assertEquals(Arrays.asList(1, 3, 0, 1, 3, 2, 1, 3, 5, 8, 6, 7,4, 1, 0, 3), matrixInSpiralOrder(Arrays.asList(
+        assertEquals(Arrays.asList(1, 3, 0, 1, 3, 2, 1, 3, 5, 8, 6, 7, 4, 1, 0, 3), matrixInSpiralOrder(Arrays.asList(
                 Arrays.asList(1, 3, 0, 1),
                 Arrays.asList(7, 4, 1, 3),
                 Arrays.asList(6, 3, 0, 2),
@@ -83,37 +83,46 @@ public class SpiralOrderingForMxNMatrix {
 
         for (int i = 0, j = 0; i < m && j < n; i++, j++) {
             // Iterate over each layer and perform spiral ordering
-            matrixInSpiralOrderHelper(squareMatrix, i, m - 1 - i, j, n - 1 - j, result);
+            int noElements = getNoElements(m - (2 * i), n - (2 * j));
+            matrixInSpiralOrderHelper(squareMatrix, i, m - 1 - i, j, n - 1 - j, result, noElements);
         }
 
         return result;
     }
 
+    private static int getNoElements(int m, int n) {
+        if (m == 1 && n == 1) {
+            return 1;
+        }
+
+        if (m == 1) {
+            return n;
+        }
+
+        if (n == 1) {
+            return m;
+        }
+
+        return 2 * m + 2 * (n - 2);
+    }
+
     private static void matrixInSpiralOrderHelper(List<List<Integer>> squareMatrix, int startRow, int endRow,
-                                                  int startColumn, int endColumn, List<Integer> result) {
-        // A few checks to take in consideration due to the fact that matrix is not square
-        if(startRow <= endRow) {
-            for (int i = startColumn; i <= endColumn; i++) {
-                result.add(squareMatrix.get(startRow).get(i));
-            }
+                                                  int startColumn, int endColumn, List<Integer> result, int noElements) {
+        // We use a counter for number of elements contained in the current layer
+        int k = 0;
+        for (int i = startColumn; i <= endColumn && k < noElements; i++, k++) {
+            result.add(squareMatrix.get(startRow).get(i));
         }
 
-        if (startColumn <= endColumn) {
-            for (int i = startRow + 1; i <= endRow; i++) {
-                result.add(squareMatrix.get(i).get(endColumn));
-            }
+        for (int i = startRow + 1; i <= endRow && k < noElements; i++, k++) {
+            result.add(squareMatrix.get(i).get(endColumn));
         }
 
-        if(startRow < endRow) {
-            for (int i = endColumn - 1; i >= startColumn; i--) {
-                result.add(squareMatrix.get(endRow).get(i));
-            }
+        for (int i = endColumn - 1; i >= startColumn && k < noElements; i--, k++) {
+            result.add(squareMatrix.get(endRow).get(i));
         }
-
-        if(startColumn < endColumn) {
-            for (int i = endRow - 1; i > startRow; i--) {
-                result.add(squareMatrix.get(i).get(startColumn));
-            }
+        for (int i = endRow - 1; i > startRow && k < noElements; i--, k++) {
+            result.add(squareMatrix.get(i).get(startColumn));
         }
     }
 }

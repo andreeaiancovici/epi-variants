@@ -20,7 +20,9 @@ import static org.junit.Assert.assertEquals;
  *     └           ┘
  * ---
  * Solution:
- * Compute size and number of layers in result matrix.
+ * Think of a matrix as a layer construction:
+ * - 1, 2, 3, 4, 5, 6, 7, 8 -> forms the first layer
+ * - 9 - forms the second layer
  * Iterate over each layer, keeping indexes for start / end of rows and columns.
  * In the same time, keep a counter for elements in the input array.
  * ---
@@ -62,31 +64,27 @@ public class GenerateMatrixFromSpiralOrder {
             matrix.add(new ArrayList<>(Collections.nCopies(size, 0)));
         }
 
-        int startRow = 0, endRow = size - 1, startColumn = 0, endColumn = size - 1;
-        int k = 0;
-        // Notice that number of layers is dependent on size
-        // - even => layers = size / 2
-        // - odd => layers = size / 2 + 1 (or simply size % 2, which is 0 or 1);
-        int layers = size / 2 + size % 2;
-
         // Iterate layers, keep counters for start / end of rows and columns
         // Keep a counter for iterating the input array
-        for (int p = 0; p < layers; p++, startRow++, endRow--, startColumn++, endColumn--) {
-            for (int j = startColumn; j <= endColumn; j++, k++) {
-                matrix.get(startRow).set(j, spiralOrder.get(k));
+        int k = 0, layer = 0;
+        while (k < spiralOrder.size()) {
+            for (int j = layer; j <= size - 1 - layer; j++, k++) {
+                matrix.get(layer).set(j, spiralOrder.get(k));
             }
 
-            for (int i = startRow + 1; i <= endRow; i++, k++) {
-                matrix.get(i).set(endColumn, spiralOrder.get(k));
+            for (int i = layer + 1; i <= size - 1 - layer; i++, k++) {
+                matrix.get(i).set(size - 1 - layer, spiralOrder.get(k));
             }
 
-            for (int j = endColumn - 1; j >= startColumn; j--, k++) {
-                matrix.get(endRow).set(j, spiralOrder.get(k));
+            for (int j = size - 2 - layer; j >= layer; j--, k++) {
+                matrix.get(size - 1 - layer).set(j, spiralOrder.get(k));
             }
 
-            for (int j = endRow - 1; j > startRow; j--, k++) {
-                matrix.get(j).set(startColumn, spiralOrder.get(k));
+            for (int j = size - 2 - layer; j > layer; j--, k++) {
+                matrix.get(j).set(layer, spiralOrder.get(k));
             }
+
+            layer++;
         }
 
         return matrix;

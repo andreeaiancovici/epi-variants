@@ -72,12 +72,14 @@ public class EnumeratePairsInSpiralOrder {
         pairs.add(Arrays.asList(0, 0));
 
         int startRow = -1, endRow = 1, startColumn = -1, endColumn = 1;
-        int row = 1, column = 0;
+        int startingRowPoint = 1, startingColumnPoint = 0;
 
         int k = 0;
         // Iterate until we have n numbers in the list
         while (k < n - 1) {
             // If we finished a spiral layer in the matrix, reset starting and ending rows and columns
+            int row = startingRowPoint;
+            int column = startingColumnPoint;
             while (row != column) {
                 for (; column > startColumn && k < n - 1; column--, k++) {
                     pairs.add(Arrays.asList(row, column));
@@ -99,6 +101,9 @@ public class EnumeratePairsInSpiralOrder {
                 endRow++;
                 startColumn--;
                 endColumn++;
+
+                startingRowPoint = row + 1;
+                startingColumnPoint = column;
             }
         }
 

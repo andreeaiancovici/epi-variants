@@ -1,4 +1,4 @@
-package epi.multidimensionalarrays;
+package epi.arrays.multidimensional._6._18;
 
 import java.util.Arrays;
 import java.util.List;
@@ -29,13 +29,13 @@ public class MatrixRotation {
 
     private static void rotateMatrix(List<List<Integer>> squareMatrix) {
         int size = squareMatrix.size();
-        for(int i = 0; i < size / 2; i++) {
+        for (int i = 0; i < size / 2; i++) {
             rotateMatrix(squareMatrix, i, size - 1 - i);
         }
     }
 
     private static void rotateMatrix(List<List<Integer>> squareMatrix, int start, int end) {
-        for(int i = 0; i < end - start; i++) {
+        for (int i = 0; i < end - start; i++) {
             int temp = squareMatrix.get(end - i).get(start);
             squareMatrix.get(end - i).set(start, squareMatrix.get(end).get(end - i));
             squareMatrix.get(end).set(end - i, squareMatrix.get(start + i).get(end));

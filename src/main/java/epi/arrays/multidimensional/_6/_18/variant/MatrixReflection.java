@@ -1,11 +1,11 @@
-package variants;
+package epi.arrays.multidimensional._6._18.variant;
 
 import java.util.Arrays;
 
 //Page 92 Variant
 //Time complexity O(n^2)
 //Space complexity O(1)
-public class Reflect2DArray {
+public class MatrixReflection {
     public static void main(String[] args) {
         int[][] matrix1 = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         int n = matrix1.length;

@@ -7,20 +7,74 @@ Additionaly, there are some proposed solutions to variant exercises and matching
 
 ## Primitive Types
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LeetCode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variants&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-| ------- | -------- | -------- |
-| [Bootcamp: CountBits](/src/main/java/epi/primitive/CountBits.java) | <a href="https://leetcode.com/problems/counting-bits/"><img src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" /></a> | |
-| [5.1 Parity ](/src/main/java/epi/primitive/_5/_1/Parity.java)| <a href="https://leetcode.com/problems/number-of-1-bits/"><img src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a> | |
-| [5.2 SwapBits](/src/main/java/epi/primitive/_5/_2/SwapBits.java) | | |
-| [5.3 ReverseBits](/src/main/java/epi/primitive/_5/_3/ReverseBits.java) | <a href="https://leetcode.com/problems/reverse-bits/"><img src="https://img.shields.io/badge/easy-Reverse%20Bits%20-brightgreen" /></a> | |
-| [5.4 ClosestIntSameWeight](/src/main/java/epi/primitive/_5/_4/ClosestIntSameWeight.java) | | [ClosestIntSameWeightConstantTime](/src/main/java/epi/primitive/_5/_4/variant/ClosestIntSameWeightConstantTime.java) |
-| [5.5 PrimitiveMultiply](/src/main/java/epi/primitive/_5/_5/PrimitiveMultiply.java) | | |
-| [5.6 PrimitiveDivide](/src/main/java/epi/primitive/_5/_6/PrimitiveDivide.java) | | |
-| [5.7 PowerXY](/src/main/java/epi/primitive/_5/_7/PowerXY.java) | <a href="https://leetcode.com/problems/powx-n/"><img src="https://img.shields.io/badge/medium-Pow(x%2C%20n)-orange" /></a> | |
-| [5.8 ReverseDigits](/src/main/java/epi/primitive/_5/_8/ReverseDigits.java) | <a href="https://leetcode.com/problems/reverse-integer/"><img src="https://img.shields.io/badge/medium-Reverse%20Integer-orange" /></a> | |
-| [5.9 IsNumberPalindromic](/src/main/java/epi/primitive/_5/_9/IsNumberPalindromic.java) | <a href="https://leetcode.com/problems/palindrome-number/"><img src="https://img.shields.io/badge/easy-Palindrome%20Number-brightgreen" /></a> | |
-| [5.10 UniformRandomNumber](/src/main/java/epi/primitive/_5/_10/UniformRandomNumber.java) | <a href="https://leetcode.com/problems/implement-rand10-using-rand7/"><img src="https://img.shields.io/badge/medium-%20Implement%20Rand10()%20Using%20Rand7()-orange" /></a> | |
-| [5.11 RectangleIntersection](/src/main/java/epi/primitive/_5/_11/RectangleIntersection.java) | <a href="https://leetcode.com/problems/rectangle-overlap/"><img src="https://img.shields.io/badge/easy-Rectangle%20Overlap-brightgreen" /></a> | [FourPointsFormRectangle](/src/main/java/epi/primitive/_5/_11/variant/FourPointsFormRectangle.java)<br/>❌ [RectangleIntersectionNotAlignedXY](/src/main/java/epi/primitive/_5/_11/variant/RectangleIntersectionNotAlignedXY.java) <b style='color:red'>(todo)<b/> |
+<table>
+  <tr>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LeetCode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variants&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+  </tr>
+  <tr>
+    <td><a href="src/main/java/epi/primitive/CountBits.java">Bootcamp: CountBits</a></td>
+    <td><a href="https://leetcode.com/problems/counting-bits/"><img src="https://img.shields.io/badge/easy-Counting%20Bits-brightgreen" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_1/Parity.java">5.1 Parity</a></td>
+    <td><a href="https://leetcode.com/problems/number-of-1-bits/"><img src="https://img.shields.io/badge/easy-Number%20of%201%20Bits-brightgreen" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_2/SwapBits.java">5.2 SwapBits</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_3/ReverseBits.java">5.3 ReverseBits</a></td>
+    <td><a href="https://leetcode.com/problems/reverse-bits/"><img src="https://img.shields.io/badge/easy-Reverse%20Bits%20-brightgreen" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_4/ClosestIntSameWeight.java">5.4 ClosestIntSameWeight</a></td>
+    <td></td>
+    <td><a href="/src/main/java/epi/primitive/_5/_4/variant/ClosestIntSameWeightConstantTime.java">ClosestIntSameWeightConstantTime</a></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_5/PrimitiveMultiply.java">5.5 PrimitiveMultiply</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_6/PrimitiveDivide.java">5.6 PrimitiveDivide</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_7/PowerXY.java">5.7 PowerXY</a></td>
+    <td><a href="https://leetcode.com/problems/powx-n/"><img src="https://img.shields.io/badge/medium-Pow(x%2C%20n)-orange" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_8/ReverseDigits.java">5.8 ReverseDigits</a></td>
+    <td><a href="https://leetcode.com/problems/reverse-integer/"><img src="https://img.shields.io/badge/medium-Reverse%20Integer-orange" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_9/IsNumberPalindromic.java">5.9 IsNumberPalindromic</a></td>
+    <td><a href="https://leetcode.com/problems/palindrome-number/"><img src="https://img.shields.io/badge/easy-Palindrome%20Number-brightgreen" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_10/UniformRandomNumber.java">5.10 UniformRandomNumber</a></td>
+    <td><a href="https://leetcode.com/problems/implement-rand10-using-rand7/"><img src="https://img.shields.io/badge/medium-%20Implement%20Rand10()%20Using%20Rand7()-orange" /></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/src/main/java/epi/primitive/_5/_11/RectangleIntersection.java">5.11 RectangleIntersection</a></td>
+    <td><a href="https://leetcode.com/problems/rectangle-overlap/"><img src="https://img.shields.io/badge/easy-Rectangle%20Overlap-brightgreen" /></a></td>
+    <td><a href="/src/main/java/epi/primitive/_5/_11/variant/FourPointsFormRectangle.java">FourPointsFormRectangle</a><br/>
+      ❌ <a href="/src/main/java/epi/primitive/_5/_11/variant/RectangleIntersectionNotAlignedXY.java">RectangleIntersectionNotAlignedXY</a></td>
+  </tr>
+</table>
 
 ## Arrays
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LeetCode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Variants&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
